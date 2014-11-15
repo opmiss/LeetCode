@@ -32,7 +32,7 @@ public class WordLadder2 {
 			word = s;
 			fan = new boolean[s.length()];
 			for (int i = 0; i < fan.length; i++)
-				fan[i] = true;
+				fan[i] = true; //can vary the character on pos i 
 		}
 
 		int compare(Node n) {
@@ -54,6 +54,8 @@ public class WordLadder2 {
 
 	public static HashMap<String, ArrayList<String>> buildIndex(
 			HashSet<String> dict) {
+		//build a index hashmap in which key is a regex, value is a list of words associated with this regex, 
+		// ca? -> cat, cap, can 
 		HashMap<String, ArrayList<String>> index = new HashMap<String, ArrayList<String>>();
 		char[] arry;
 		for (String s : dict) {
@@ -73,6 +75,7 @@ public class WordLadder2 {
 		return index;
 	}
 
+	
 	public static ArrayList<ArrayList<String>> findPaths(Node node,
 			ArrayList<String> path) {
 		ArrayList<ArrayList<String>> paths = new ArrayList<ArrayList<String>>();
@@ -114,7 +117,7 @@ public class WordLadder2 {
 			ladders.add(sol);
 			return ladders;
 		}
-
+		//Breadth first search
 		queue = new LinkedList<Node>();
 		queue.add(sn);
 		sol_length = Integer.MAX_VALUE;
@@ -123,7 +126,7 @@ public class WordLadder2 {
 		char[] nchar;
 		String id;
 		map = new HashMap<String, Node>();
-		visited = new HashSet<String>();
+		visited = new HashSet<String>(); // a set of visited string
 		while (!queue.isEmpty()) {
 			Node cur = queue.remove();
 			visited.add(cur.word);

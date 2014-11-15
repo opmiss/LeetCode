@@ -150,8 +150,9 @@ public class WordLadder2 {
 									if (null == node) {
 										node = new Node(s);
 									}
+									//build spanning tree
 									node.fan[i] = false;
-									node.prev.add(cur);
+									node.prev.add(cur); 
 									map.put(s, node);
 								}
 							}

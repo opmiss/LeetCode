@@ -1,4 +1,4 @@
-package com.leetcode.problems.array;
+package com.leetcode.problems.dp;
 
 /*
  * Say you have an array for which the ith element is the price of a given stock on day i.
@@ -8,7 +8,7 @@ package com.leetcode.problems.array;
  * (ie, you must sell the stock before you buy again).
  * */
 
-public class BuySellStock3 {
+public class BuySellStock {
 	 public int maxProfit(int[] prices) {
 	        int maxProfit =0; 
 	        if (prices.length<2) return 0;

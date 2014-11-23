@@ -31,4 +31,25 @@ public class JumpGame2 {
 	        }
 	        return step;
 	    }
+	 
+	/* Given an array of non-negative integers, you are initially positioned at the first index of the array.
+
+	 Each element in the array represents your maximum jump length at that position.
+
+	 Determine if you are able to reach the last index.
+
+	 For example:
+	 A = [2,3,1,1,4], return true.
+
+	 A = [3,2,1,0,4], return false*/
+	 
+	    public boolean canJump(int[] A) {
+	        int reach=0; 
+	        for (int cur=0; cur<A.length; cur++){
+	            if (reach<cur) return false; 
+	            if (reach>=A.length-1) return true; 
+	            reach = Math.max(cur+A[cur], reach); 
+	        }
+	        return true; 
+	    }
 }

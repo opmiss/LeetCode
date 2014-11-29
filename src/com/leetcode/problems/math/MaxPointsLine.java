@@ -91,7 +91,7 @@ public class MaxPointsLine {
 			linemap.clear(); 
 			for (int j=i+1; j<pts.length; j++){
 				int dx = pts[i].x-pts[j].x; 
-				int dy = pts[i].y-pts[i].y;
+				int dy = pts[i].y-pts[j].y;
 				if (dx<0) {dx = -dx; dy = -dy; }
 				int gd = gcd(dx, dy);
 				dx/=gd; 

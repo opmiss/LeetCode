@@ -1,4 +1,4 @@
-package com.leetcode.problems.array;
+package com.leetcode.problems.greedy;
 
 /*Given an array of non-negative integers, you are initially positioned at the first index of the array.
 
@@ -13,7 +13,7 @@ The minimum number of jumps to reach the last index is 2.
 (Jump 1 step from index 0 to 1, then 3 steps to the last index.)
 */ 
 
-public class JumpGame2 {
+public class JumpGame {
 	 public int jump(int[] A) {
 	        int n = A.length; 
 	        int step = 0;

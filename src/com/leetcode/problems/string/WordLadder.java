@@ -1,4 +1,4 @@
-package com.leetcode.problems.array;
+package com.leetcode.problems.string;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -22,7 +22,7 @@ import java.util.LinkedList;
  * ]
  * */
 
-public class WordLadder2 {
+public class WordLadder {
 	static class Node {
 		String word;
 		ArrayList<Node> prev = new ArrayList<Node>();

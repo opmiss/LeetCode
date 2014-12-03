@@ -1,4 +1,4 @@
-package com.leetcode.problems.array;
+package com.leetcode.problems.tree;
 
 import java.util.Stack;
 

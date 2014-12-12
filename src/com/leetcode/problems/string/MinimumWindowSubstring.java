@@ -14,7 +14,26 @@ package com.leetcode.problems.string;
 public class MinimumWindowSubstring {
 	
 	public String minWindow(String S, String T) {
-		//TODO
-        return null; 
+		int[] require = new int[128]; 
+		for (int i=0; i<T.length(); i++) require[T.charAt(i)]++; 
+		int i=0, j=0, found =0, minLength = Integer.MAX_VALUE, start = 0; 
+		while (j<S.length()){
+			if (found<T.length()&& i<S.length()){
+				if (--require[S.charAt(i)]>=0 )found++; 
+				i++;  
+			}
+			else {
+				if (++require[S.charAt(j)]>0) { 
+				    if (found>=T.length() && minLength>(i-j)) {
+				        minLength = (i-j); 
+					    start = j; 
+				    }
+				    found--;
+				}
+				j++;
+			}
+		}
+        return minLength==Integer.MAX_VALUE?"":S.substring(start, start+minLength); 
     }
+	
 }

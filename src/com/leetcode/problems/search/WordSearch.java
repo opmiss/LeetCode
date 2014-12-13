@@ -1,4 +1,4 @@
-package com.leetcode.problems.array;
+package com.leetcode.problems.search;
 
 /*
  * Given a 2D board and a word, find if the word exists in the grid.

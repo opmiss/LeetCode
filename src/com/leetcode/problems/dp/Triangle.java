@@ -1,4 +1,4 @@
-package com.leetcode.problems.array;
+package com.leetcode.problems.dp;
 import java.util.ArrayList;
 
 /* Given a triangle, find the minimum path sum from top to bottom. 

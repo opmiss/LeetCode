@@ -39,7 +39,6 @@ public class Sudoku {
 	 
 	 int num; 
 	 public void solve(char[][] board, List<int[]> list, int k){
-		 System.out.println(list.size()+", "+k); 
 		 if (k>=list.size()){
 			 num++;return; 
 		 }
@@ -61,7 +60,6 @@ public class Sudoku {
 			 if (board[i][c]==x) return false;
 			 if (board[rr+i/3][cc+i%3] ==x) return false; 
 		 }
-		 System.out.println(r+", "+c+", "+x+": true"); 
 		 return true; 
 	 }
 	 

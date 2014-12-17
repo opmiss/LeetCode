@@ -3,6 +3,18 @@ package com.leetcode.problems.math;
 import java.util.List;
 
 public class Permutations {
+	
+    /*
+     * Given a collection of numbers, return all possible permutations.
+     * For example,
+     * [1,2,3] have the following permutations:
+     * [1,2,3], [1,3,2], [2,1,3], [2,3,1], [3,1,2], and [3,2,1].
+     */
+    
+    public List<List<Integer>> permute(int[] num) {
+    	return null; 
+    }
+    
 	/*
 	 * Given a collection of numbers that might contain duplicates, return all possible unique permutations.
 	 * For example,
@@ -13,17 +25,6 @@ public class Permutations {
 	
     public List<List<Integer>> permuteUnique(int[] num) {
         return null; 
-    }
-    
-    /*
-     * Given a collection of numbers, return all possible permutations.
-     * For example,
-     * [1,2,3] have the following permutations:
-     * [1,2,3], [1,3,2], [2,1,3], [2,3,1], [3,1,2], and [3,2,1].
-     */
-    
-    public List<List<Integer>> permute(int[] num) {
-    	return null; 
     }
     
     /*
@@ -83,5 +84,22 @@ public class Permutations {
 		int t = num[i];
 		num[i] = num[j];
 		num[j] = t;
+	}
+	
+	/*
+	 * The set [1,2,3,...,n] contains a total of n! unique permutations.
+	 * By listing and labeling all of the permutations in order,
+	 * We get the following sequence (ie, for n = 3):
+	 * "123"
+	 * "132"
+	 * "213"
+	 * "231"
+	 * "312"
+	 * "321"
+	 * Given n and k, return the kth permutation sequence.
+	 * Note: Given n will be between 1 and 9 inclusive.
+	 */
+	public String getPermutation(int n, int k){
+		return null; 
 	}
 }

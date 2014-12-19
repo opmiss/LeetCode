@@ -9,14 +9,7 @@ import java.util.Stack;
 */
 
 public class BinaryTreeInorderPostorder {
-	public class TreeNode {
-		int val;
-		TreeNode left;
-		TreeNode right;
-		TreeNode(int x) {
-			val = x;
-		}
-	}
+
 	public TreeNode buildTree(int[] inorder, int[] postorder) {
 		// inorder: LMR, postorder LRM
 		if (inorder.length == 0 || inorder.length != postorder.length)

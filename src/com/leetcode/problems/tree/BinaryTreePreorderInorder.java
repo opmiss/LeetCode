@@ -9,14 +9,6 @@ import java.util.Stack;
 */
 
 public class BinaryTreePreorderInorder {
-	public class TreeNode {
-		int val;
-		TreeNode left;
-		TreeNode right;
-		TreeNode(int x) {
-			val = x;
-		}
-	}
 
 	public TreeNode buildTree(int[] preorder, int[] inorder) {
 		if (inorder.length == 0)

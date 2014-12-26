@@ -39,7 +39,30 @@ public class Substring {
 	 * For example, given S = "abcbbbbcccbdddadacb", the longest substring that contains 2 unique character is "bcbbbbcccb".
 	 */
 	public String maxWindow(String S){
-		return null; 
+		int[] seen = new int[128]; 
+		int p0=0, p1=0, num=0, maxL=0, start=0; 
+		while (p1<S.length()){
+			//System.out.println(p0+", "+p1); 
+			if (num<=2){
+				if (++seen[S.charAt(p1)]==1) num++; 
+				p1++; 
+			}
+			else {
+				if (--seen[S.charAt(p0)]==0) num--;
+				p0++; 
+			}
+			if (num==2&& maxL<(p1-p0)){
+				maxL=p1-p0; 
+				start = p0; 
+			}
+		}
+		return (maxL==0)?"":S.substring(start, start+maxL); 
+	}
+	
+	public static void main(String[] args){
+		String S = "abcbbbbcccbdddadacb"; 
+		Substring ss = new Substring(); 
+		System.out.println(ss.maxWindow(S)); 
 	}
 	
 }

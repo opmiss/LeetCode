@@ -8,30 +8,23 @@ public class Subarray {
 	 * the contiguous subarray [2,3] has the largest product = 6.
 	 */
 	public int maxProduct(int[] A) {
-		if (A.length == 0)
-			return 0;
 		if (A.length == 1)
 			return A[0];
-		int maxhere = Math.max(A[0], 0);
-		int minhere = Math.min(A[0], 0);
+		int maxhere = 0;
+		int minhere = 0;
 		int maxprod = A[0];
-		for (int i = 1; i < A.length; i++) {
-			if (A[i] == 0) {
-				maxprod = Math.max(maxhere, maxprod);
-				if (i < A.length - 1) {
-					maxhere = Math.max(A[i + 1], 0);
-					minhere = Math.min(A[i + 1], 0);
-					i++;
-				}
-			} else if (A[i] > 0) {
-				maxhere = Math.max(maxhere * A[i], A[i]);
-				minhere = Math.min(minhere * A[i], 0);
-			} else {
+		for (int i = 0; i < A.length; i++) {
+			if (A[i] > 0) {
+				maxhere = (maxhere > 0) ? maxhere * A[i] : A[i];
+				minhere = (minhere < 0) ? minhere * A[i] : 0;
+			} else if (A[i] < 0) {
 				int t = maxhere;
-				maxhere = Math.max(minhere * A[i], 0);
-				minhere = Math.min(t * A[i], A[i]);
+				maxhere = (minhere < 0) ? minhere * A[i] : 0;
+				minhere = (t > 0) ? t * A[i] : A[i];
+			} else {
+				maxhere = minhere = 0;
 			}
-			maxprod = Math.max(maxhere, maxprod);
+			maxprod = (maxprod < maxhere) ? maxhere : maxprod;
 		}
 		return maxprod;
 	}

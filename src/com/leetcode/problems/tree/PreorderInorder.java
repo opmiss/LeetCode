@@ -8,7 +8,7 @@ import java.util.Stack;
  * You may assume that duplicates do not exist in the tree.
 */
 
-public class BinaryTreePreorderInorder {
+public class PreorderInorder {
 
 	public TreeNode buildTree(int[] preorder, int[] inorder) {
 		if (inorder.length == 0)

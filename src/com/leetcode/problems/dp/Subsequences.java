@@ -12,7 +12,7 @@ package com.leetcode.problems.dp;
  * 
  */
 
-public class DistinctSubsequences {
+public class Subsequences {
 	 public int numDistinct(String S, String T) {
 		 if (S.length()<T.length()) return 0; 
 		 

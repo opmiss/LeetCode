@@ -10,7 +10,7 @@ import java.util.Map;
  * Your algorithm should run in O(n) complexity.
  */
 
-public class LongestConsecutiveSequence {
+public class Sequence {
 	
     public int longestConsecutive(int[] num) {
         Map<Integer, Integer> map = new HashMap<Integer, Integer>(); 

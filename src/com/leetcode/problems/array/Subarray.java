@@ -34,7 +34,15 @@ public class Subarray {
 	 * the contiguous subarray [4,-1,2,1] has the largest sum = 6
 	 */
 	public int maxSum(int[] A) {
-		return 0; 
+		if (A.length == 1)
+			return A[0]; 
+		int sumhere=A[0]; 
+		int maxsum=A[0]; 
+		for (int i=1; i<A.length; i++) {
+			sumhere = (sumhere<0)?A[i]:(sumhere+A[i]); 
+			maxsum = (maxsum<sumhere)?sumhere:maxsum; 
+		}
+		return maxsum; 
 	}
 	
 }

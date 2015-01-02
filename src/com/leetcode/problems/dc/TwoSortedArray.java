@@ -7,7 +7,7 @@ import java.util.Arrays;
  * The overall run time complexity should be O(log (m+n)).
  */
 
-public class MedianOfTwoSortedArray {
+public class TwoSortedArray {
 	
 	 public double findMedianSortedArrays(int A[], int B[]) { 
 	        if (A.length ==0) return Median(B, 0, B.length);

@@ -1,5 +1,7 @@
 package com.leetcode.problems.math;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Permutations {
@@ -12,6 +14,9 @@ public class Permutations {
      */
     
     public List<List<Integer>> permute(int[] num) {
+    	List list = new ArrayList<Integer>(); 
+    	for (int n:num) list.add(n); 
+    	
     	return null; 
     }
     

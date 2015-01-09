@@ -20,6 +20,18 @@ public class Permutations {
     	return null; 
     }
     
+    private List<List<Integer>> permute(ArrayList<Integer> list){
+    	List<List<Integer>> ret = new ArrayList<List<Integer>>(); 
+    	if (list.size()<=1) {
+    		ret.add(list); 
+    		return ret; 
+    	}
+    	for (int i=0; i<list.size(); i++){
+    		list.remove(i); 
+    		
+    	}
+    }
+    
 	/*
 	 * Given a collection of numbers that might contain duplicates, return all possible unique permutations.
 	 * For example,

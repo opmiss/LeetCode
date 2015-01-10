@@ -2,6 +2,7 @@ package com.leetcode.problems.math;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 
 public class Permutations {
@@ -125,12 +126,44 @@ public class Permutations {
 	 * Given n and k, return the kth permutation sequence.
 	 * Note: Given n will be between 1 and 9 inclusive.
 	 */
-	public String getPermutation(int n, int k) {
-		return null; 
+	
+	HashMap<Integer, Integer> factMap= new HashMap<>(); 
+	
+	private int getFact(int i){
+		if (i<=2) return i; 
+		if (null==factMap.get(i)){
+			factMap.put(i, getFact(i-1)*i); 
+		}
+		return factMap.get(i); 
 	}
 	
+	public String getPermutation(int n, int k) {
+		StringBuffer sb = new StringBuffer(); 
+		for (int i=0; i<n; i++) sb.append(Character.forDigit(i+1, 10)); 
+		return get(sb, k).toString(); 
+	}
+	
+	private StringBuffer get(StringBuffer sb, int k){
+		if (sb.length()==1) return sb; 
+		int size = getFact(sb.length()-1); 
+		int index = (k-1)/size;
+		char c = sb.charAt(index); 
+		sb = sb.deleteCharAt(index);
+		StringBuffer b = get(sb, k-index*size);
+		return b.insert(0, c); 
+	}
+	
+	
 	public static void main(String[] args){
-
+		Permutations p = new Permutations(); 
+		System.out.println(p.getPermutation(4, 1)); 
+		System.out.println(p.getPermutation(4, 2)); 
+		System.out.println(p.getPermutation(4, 3)); 
+		System.out.println(p.getPermutation(4, 4)); 
+		System.out.println(p.getPermutation(4, 5)); 
+		System.out.println(p.getPermutation(4, 6)); 
+		System.out.println(p.getPermutation(4, 7)); 
+		System.out.println(p.getPermutation(4, 8)); 
 	}
 	
 }

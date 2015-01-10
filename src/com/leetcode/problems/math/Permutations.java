@@ -6,32 +6,6 @@ import java.util.List;
 
 public class Permutations {
 	
-    /*
-     * Given a collection of numbers, return all possible permutations.
-     * For example,
-     * [1,2,3] have the following permutations:
-     * [1,2,3], [1,3,2], [2,1,3], [2,3,1], [3,1,2], and [3,2,1].
-     */
-    
-    public List<List<Integer>> permute(int[] num) {
-    	List list = new ArrayList<Integer>(); 
-    	for (int n:num) list.add(n); 
-    	
-    	return null; 
-    }
-    
-    private List<List<Integer>> permute(ArrayList<Integer> list){
-    	List<List<Integer>> ret = new ArrayList<List<Integer>>(); 
-    	if (list.size()<=1) {
-    		ret.add(list); 
-    		return ret; 
-    	}
-    	for (int i=0; i<list.size(); i++){
-    		list.remove(i); 
-    		
-    	}
-    }
-    
 	/*
 	 * Given a collection of numbers that might contain duplicates, return all possible unique permutations.
 	 * For example,
@@ -39,11 +13,39 @@ public class Permutations {
 	 * [1,1,2], [1,2,1], and [2,1,1].
 	 * 
 	 */
-	
+    
     public List<List<Integer>> permuteUnique(int[] num) {
-        return null; 
+    	Arrays.sort(num);
+      	ArrayList<Integer> list = new ArrayList<Integer>(); 
+    	for (int n:num) list.add(n); 
+    	return permute(list); 
     }
     
+    private List<List<Integer>> permute(ArrayList<Integer> list){
+    	List<List<Integer>> ret = new ArrayList<List<Integer>>(); 
+    	if (list.size()<=1) {
+    		ret.add(new ArrayList<Integer>(list)); 
+    		return ret; 
+    	}
+    	for (int i=0; i<list.size(); i++){
+            if (i>0 && list.get(i)==list.get(i-1)) {
+            	continue; 
+            }
+    		int e = list.remove(i); 
+    		List<List<Integer>> p = permute(list); 
+    		for (List<Integer> l:p){
+    			l.add(e); 
+    			ret.add(l); 
+    		}
+    		list.add(i, e); 
+    	}
+    	return ret; 
+    }
+    
+    public void test(){
+    	int[] input = new int[]{-1, -1, 3, -1}; 
+    	System.out.println(permuteUnique(input)); 
+    }
     /*
      * Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.
      * If such arrangement is not possible, it must rearrange it as the lowest possible order 
@@ -102,21 +104,33 @@ public class Permutations {
 		num[i] = num[j];
 		num[j] = t;
 	}
+	private String toString(int[] num){
+		StringBuffer sb = new StringBuffer(); 
+		for (int n:num){
+			sb.append(Character.forDigit(n, 10)); 
+		}
+		return sb.toString(); 
+	}
 	
 	/*
 	 * The set [1,2,3,...,n] contains a total of n! unique permutations.
 	 * By listing and labeling all of the permutations in order,
 	 * We get the following sequence (ie, for n = 3):
-	 * "123"
-	 * "132"
-	 * "213"
-	 * "231"
-	 * "312"
-	 * "321"
+	 * 1. "123"
+	 * 2. "132"
+	 * 3. "213"
+	 * 4. "231"
+	 * 5. "312"
+	 * 6. "321"
 	 * Given n and k, return the kth permutation sequence.
 	 * Note: Given n will be between 1 and 9 inclusive.
 	 */
-	public String getPermutation(int n, int k){
+	public String getPermutation(int n, int k) {
 		return null; 
 	}
+	
+	public static void main(String[] args){
+
+	}
+	
 }

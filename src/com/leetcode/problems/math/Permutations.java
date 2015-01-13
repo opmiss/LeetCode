@@ -156,14 +156,14 @@ public class Permutations {
 	
 	public static void main(String[] args){
 		Permutations p = new Permutations(); 
-		System.out.println(p.getPermutation(4, 1)); 
-		System.out.println(p.getPermutation(4, 2)); 
+		System.out.println(p.getPermutation(4, 15)); 
+		/*System.out.println(p.getPermutation(4, 2)); 
 		System.out.println(p.getPermutation(4, 3)); 
 		System.out.println(p.getPermutation(4, 4)); 
 		System.out.println(p.getPermutation(4, 5)); 
 		System.out.println(p.getPermutation(4, 6)); 
 		System.out.println(p.getPermutation(4, 7)); 
-		System.out.println(p.getPermutation(4, 8)); 
+		System.out.println(p.getPermutation(4, 8)); */
 	}
 	
 }

@@ -15,33 +15,45 @@ public class CopyList {
 		RandomListNode(int x) { this.label = x; }
 	};
 	
-	Map<RandomListNode, RandomListNode> map; 
-	
     public RandomListNode copyRandomList(RandomListNode head) {
-    	map = new HashMap<RandomListNode, RandomListNode>(); 
-    	RandomListNode chead = null; 
-    	chead=copy(head, chead); 
-        return chead; 
-    }
-    public RandomListNode copy(RandomListNode from, RandomListNode to){
-    	if (from==null) return null; 
-    	RandomListNode node = map.get(from);
-    	if (node==null) {
-    		if (to==null) to = new RandomListNode(from.label); 
-    		map.put(from, to); 
+    	if (head==null) return null; 
+    	RandomListNode cur=head, next; 
+    	while (cur!=null){
+    		next = cur.next; 
+    		cur.next = new RandomListNode(cur.label); 
+    		cur.next.next = next; 
+    		cur = next;  
     	}
-    	else {
-    		to = node; 
-    		return to; 
+    	cur = head; 
+    	while (cur!=null){
+    		if (cur.random!=null) cur.next.random = cur.random.next; 
+    		cur = cur.next.next; 
     	}
-    	to.next = copy(from.next, to.next);
-    	to.random = copy(from.random, to.random); 
-    	return to; 
+    	RandomListNode nhead = head.next;
+    	cur = head; 
+    	while (cur!=null){
+    		next = cur.next; 
+    		cur.next = (next==null)?null:next.next;
+    		next.next = (cur.next==null)?null:cur.next.next; 
+    		cur = cur.next; 
+    	}
+    	return nhead; 
     }
+  
     public void test(){
-    	RandomListNode head = new RandomListNode(-1); 
+    	RandomListNode head = new RandomListNode(1), cur=head; 
+    	cur.next = new RandomListNode(2); cur=cur.next; 
+    	cur.next = new RandomListNode(3); cur=cur.next; 
+    	cur.next = new RandomListNode(4); cur=cur.next;
+    	cur=head; cur.random = cur.next.next; cur=cur.next;
+    	cur.random=cur.next.next;
     	RandomListNode chead = copyRandomList(head);
-    	System.out.println(chead.label); 
+    	cur = chead; 
+    	while (cur!=null){
+    		System.out.println(cur.label);
+    		if (cur.random!=null) System.out.println("->"+cur.random.label); 
+    		cur=cur.next; 
+    	}
     }
     
     public static void main(String[] args){

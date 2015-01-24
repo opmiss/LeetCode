@@ -2,11 +2,13 @@ package com.leetcode.problems.array;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map.Entry;
 import java.util.Set;
 
-public class ThreeSum {
+public class TargetSum {
 	/* Given an array S of n integer, 
 	 * are there elements a, b, c in S such that a+b+c=0?
 	 * Find all unique triplets in the array which gives the sum of zero. 
@@ -77,6 +79,45 @@ public class ThreeSum {
 			}
 		}
 		return ret;
+	}
+	 /* Given an array S of n integers, find consecutive integers in S such that the sum is equal to a given number, target. 
+	  * Return the sub-array. You may assume that each input would have exactly one solution. The algorithm should run in O(n).
+	  */
+	public List<List<Integer>> arraySum(int[] num, int target){
+		List<List<Integer>> ret = new ArrayList<List<Integer>>(); 
+		int[] leftsum = new int[num.length];
+		leftsum[0] = num[0]; 
+		for (int i=1; i<num.length; i++){
+			leftsum[i] = num[i]+leftsum[i-1];
+			if (leftsum[i]==target) {
+				ArrayList<Integer> sol = new ArrayList<Integer>(); 
+				sol.add(0); sol.add(i); 
+				ret.add(sol); 
+			}
+		}
+		HashMap<Integer, Integer> map = new HashMap<Integer, Integer>(); 
+		for (int i=0; i<num.length; i++){
+			map.put(leftsum[i], i); 
+		}
+		for (Entry<Integer, Integer> e:map.entrySet()){
+			Integer t = map.get(e.getKey()-target); 
+			if (t!=null && t<e.getValue()){
+				ArrayList<Integer> sol = new ArrayList<Integer>(); 
+				sol.add(t+1); sol.add(e.getValue()); 
+				ret.add(sol); 
+			}
+		}
+		return ret; 
+	}
+	
+	public void test(){
+		int[] A = new int[]{2, 3, 1, 5, -1, 7};
+		System.out.println(arraySum(A, 4)); 
+	}
+	
+	public static void main(String[] args){
+		TargetSum ts = new TargetSum(); 
+		ts.test(); 
 	}
 
 }

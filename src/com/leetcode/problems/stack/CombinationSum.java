@@ -1,4 +1,4 @@
-package com.leetcode.problems.array;
+package com.leetcode.problems.stack;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -74,7 +74,7 @@ public class CombinationSum {
 	
 	public void test(){
 		int[] num = new int[]{2,3,6,7}; 
-		int[] num2 = new int[]{10, 1, 2, 7, 6, 1, 5};
+		int[] num2 = new int[]{10, -1, 2, 7, 6, 1, 5};
 		System.out.println(combinationSum(num, 7)); 
 		System.out.println(combinationSum2(num2, 8)); 
 	}

@@ -12,35 +12,36 @@ public class Candy {
 	 * What is the minimum candies you must give?
 	 */
     public int candy(int[] ratings) {
-    	if (ratings.length == 1) return 1; 
-    	int[] candy =new int[ratings.length]; 
-    	candy[0]=1; 
-    	for (int i=1; i<ratings.length; i++){
-    		if (ratings[i] > ratings[i-1]) candy[i]=candy[i-1]+1; 
-    		else candy[i]=1; 
-    	}
-    	int cur = candy[ratings.length-1];
-    	int tol = cur; 
-    	for (int i=ratings.length-2; i>=0; i--){
-    		if (ratings[i] > ratings[i+1]) cur++; 
-    		else cur=1; 
-    		tol+=(cur>candy[i])?cur:candy[i];  
-    	}
-        return tol; 
-    }
-    public int majorityElement(int[] num) {
-        Map<Integer, Integer> map = new HashMap<Integer, Integer>(); 
-        for (int n:num){
-            Integer c = map.get(n);
-            if (c==null) c=0; 
-            c++; 
-            if (c>num.length/2) return n; 
-            map.put(n, c);
-        }
-        return 0; 
-    }
+    	if (ratings.length < 2) return ratings.length;
+    	int up=0, down=0, num=0, i=0; 
+    	 while (i<ratings.length){
+             if (i+1==ratings.length) return num+1; 
+             while (i+1<ratings.length && ratings[i]==ratings[i+1]){num++; i++;}
+             while (i+1<ratings.length && ratings[i]<ratings[i+1]){up++; i++;}
+             while (i+1<ratings.length && ratings[i]>ratings[i+1]){down++; i++;}
+             num+=calculate(up, down);
+             up=0; down=0; 
+         }
+         return num; 
+     }
+     int calculate(int up, int down){
+         if (up>down){
+             return sum(up+1)+sum(down)-1; 
+         }else{
+             return sum(up)+sum(down+1)-1; 
+         }
+     }
+     int sum(int n){
+     	return (1+n)*n/2; 
+     }
+     
+     public void test(){
+    	 int[] num = new int[]{1, 3, 8, 4, 2, 1};
+    	 System.out.println(candy(num)); 
+     }
+
     public static void main(String[] args){
-    	String a= "asdfsdg"; 
-    	System.out.println(Integer.parseInt("001")); 
+    	Candy c = new Candy(); 
+    	c.test(); 
     }
 }

@@ -13,11 +13,9 @@ public class MaximumGap {
 	class Bucket {
 		int min;
 		int max;
-
 		Bucket(int val) {
 			max = min = val;
 		}
-
 		void add(int n) {
 			max = (max < n) ? n : max;
 			min = (min > n) ? n : min;

@@ -1,8 +1,5 @@
 package com.leetcode.problems.array;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class Candy {
 	/*
 	 * There are N children standing in a line. Each child is assigned a rating value.

@@ -1,6 +1,7 @@
 package com.leetcode.problems.math;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 
@@ -23,48 +24,32 @@ import java.util.HashMap;
 */
 
 public class Subsets {
-    ArrayList<Integer> empty = new ArrayList<Integer>(); 
-    HashMap<Integer, Integer> map; 
     
-    public ArrayList<ArrayList<Integer>> subsets(int[] num) {
-        ArrayList<ArrayList<Integer>> ret = new ArrayList<ArrayList<Integer>>();
-        ret.add(empty);
-        if (num.length==0) return ret;
-        map = new HashMap<Integer, Integer>(); 
-        for (int n:num){
-            Integer k = map.get(n);
-            if (k==null) map.put(n, 1);
-            else map.put(n, (k+1)); 
-        }
-        for (Integer n:map.keySet()){
-            ret = crosslist(ret, tolist(n, map.get(n))); 
-        }
-        for (ArrayList<Integer> r:ret){
-            Collections.sort(r); 
-        }  
-        return ret; 
+    public ArrayList<ArrayList<Integer>> subsetsWithDup(int[] num) {
+    	Arrays.sort(num);
+     	ArrayList<Integer> list = new ArrayList<Integer>(); 
+    	for (int n:num) list.add(n); 
+    	ArrayList<ArrayList<Integer>> result = new ArrayList<ArrayList<Integer>>(); 
+    	subset(list, 0, new ArrayList<Integer>(), result);  
+    	return result; 
     }
-    public ArrayList<ArrayList<Integer>> crosslist(ArrayList<ArrayList<Integer>> list1, ArrayList<ArrayList<Integer>> list2){
-        ArrayList<ArrayList<Integer>> ret = new ArrayList<ArrayList<Integer>>();
-        for (ArrayList<Integer> r1:list1){
-            for (ArrayList<Integer> r2:list2){
-                ArrayList<Integer> r = new ArrayList<Integer>(); 
-                r.addAll(r1); r.addAll(r2);
-                ret.add(r); 
-            }
+    void subset(ArrayList<Integer> S, int start, ArrayList<Integer> output, ArrayList<ArrayList<Integer>> result) {
+        result.add(new ArrayList(output));
+        for (int i = start; i < S.size(); i++) {
+        	if (i>0&&S.get(i)==S.get(i-1)) continue; 
+            output.add(S.get(i));
+            subset(S, i + 1, output, result);
+            output.remove(output.size()-1); 
+            // disable following line for subset I
+           // while (i + 1 < S.size() && S.get(i+1) == S.get(i)) i++;
         }
-        return ret; 
     }
-    public ArrayList<ArrayList<Integer>> tolist(int n, int k){
-        ArrayList<ArrayList<Integer>> ret = new ArrayList<ArrayList<Integer>>(); 
-        ret.add(empty); 
-        for (int i=1; i<=k; i++){
-            ArrayList<Integer> row = new ArrayList<Integer>(); 
-            for (int j = 0; j<i; j++){
-                row.add(n); 
-            }
-            ret.add(row); 
-        }
-        return ret; 
+    public void test(){
+    	int[] num = new int[]{1, 2, 3}; 
+    	System.out.println(subsetsWithDup(num)); 
+    }
+    public static void main(String[] args){
+    	Subsets s = new Subsets(); 
+    	s.test(); 
     }
 }

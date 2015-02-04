@@ -153,17 +153,28 @@ public class Permutations {
 		return b.insert(0, c); 
 	}
 	
+	public ArrayList<String> generateParenthesis(int n) {
+        ArrayList<String> ret = new ArrayList<String>(); 
+        if (n==0) {
+            ret.add(""); return ret;
+        }
+        if (n==1) {
+            ret.add("()"); return ret;  
+        }
+        for (int i=0; i<n; i++){
+            for (String inner: generateParenthesis(i)){
+                for (String outter:generateParenthesis(n-i-1)){
+                    ret.add("("+inner+")"+outter); 
+                }
+            }
+        }
+        return ret; 
+    }
+	
 	
 	public static void main(String[] args){
 		Permutations p = new Permutations(); 
-		System.out.println(p.getPermutation(4, 15)); 
-		/*System.out.println(p.getPermutation(4, 2)); 
-		System.out.println(p.getPermutation(4, 3)); 
-		System.out.println(p.getPermutation(4, 4)); 
-		System.out.println(p.getPermutation(4, 5)); 
-		System.out.println(p.getPermutation(4, 6)); 
-		System.out.println(p.getPermutation(4, 7)); 
-		System.out.println(p.getPermutation(4, 8)); */
+		System.out.println(p.generateParenthesis(4)); 
 	}
 	
 }

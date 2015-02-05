@@ -92,8 +92,6 @@ public class Matrix {
 		if (step==0) checkDiag(M, i+step+1, j+step+1, n); 
 		else checkDiag(M, i+step, j+step, n); 
 	}
-	
-	
 	public void test(){
 		boolean[][] M = new boolean[][]{
 			{true, true, true, true}, 
@@ -103,10 +101,13 @@ public class Matrix {
 		}; 
 		System.out.println(maxSubsquare(M)); 
 	}
-	
 	public static void main(String[] args){
 		Matrix m = new Matrix(); 
-		m.test(); 
+		//m.test(); 
+		String num = "0.01"; 
+		//int i = Integer.parseInt(num); 
+		float f = Float.parseFloat(num); 
+		
+		System.out.println(Integer.toBinaryString(Float.floatToIntBits(f))); 
 	}
-	
 }

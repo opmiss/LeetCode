@@ -32,5 +32,16 @@ public class SingleNumber {
 		return m1; 
     }
 	
+	public int singleNumberN(int[] A, int N){
+		return 0; 
+	}
+	
+	public void test(){
+		
+	}
+	
+	public static void main(String[] args){
+		
+	}
 
 }

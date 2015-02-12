@@ -29,23 +29,8 @@ public class RollingHash {
 		return 3; 
 	}
 	
-    private static final Map<Character, Integer> A = new HashMap<>();
-    static { A.put('A',0); A.put('C',1); A.put('G',2); A.put('T',3); }
-    private final int A_SIZE_POW_9 = (int) Math.pow(A.size(), 9);
-
+	
     public List<String> findRepeatedDnaSequences(String s) {
-        Set<String> res = new HashSet<>();
-        Set<Integer> hashes = new HashSet<>();
-        for (int i = 0, rhash = 0; i < s.length(); i++) {
-            if (i > 9) rhash -= A_SIZE_POW_9 * A.get(s.charAt(i-10));
-            rhash = A.size() * rhash + A.get(s.charAt(i));
-            if (i > 8 && !hashes.add(rhash)) res.add(s.substring(i-9,i+1));
-        }
-        return new ArrayList<>(res);
-    }
-	
-	
-    public List<String> findRepeatedDnaSequences_(String s) {
     	Set<Integer> seen = new HashSet<Integer>(); 
     	int h = 0; 
     	Set<String> res = new HashSet<String>(); 
@@ -58,7 +43,7 @@ public class RollingHash {
     
     public void test(){
     	String s = "AAAAACCCCCAAAAACCCCCAAAAAGGGTTT";
-    	System.out.println(this.findRepeatedDnaSequences_(s)); 
+    	System.out.println(this.findRepeatedDnaSequences(s)); 
     }
     
     public static void main(String[] args){

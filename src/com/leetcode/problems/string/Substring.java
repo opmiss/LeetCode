@@ -42,7 +42,6 @@ public class Substring {
 		int[] seen = new int[128]; 
 		int p0=0, p1=0, num=0, maxL=0, start=0; 
 		while (p1<S.length()){
-			//System.out.println(p0+", "+p1); 
 			if (num<=2){
 				if (++seen[S.charAt(p1)]==1) num++; 
 				p1++; 
@@ -57,6 +56,10 @@ public class Substring {
 			}
 		}
 		return (maxL==0)?"":S.substring(start, start+maxL); 
+	}
+	
+	public String minSequence(String S){
+		return null; 
 	}
 	
 	public static void main(String[] args){

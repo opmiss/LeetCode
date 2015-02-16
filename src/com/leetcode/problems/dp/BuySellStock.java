@@ -31,7 +31,7 @@ public class BuySellStock {
 		 return sell2; 
 	 }
 	 
-	 /* solution to the problem generalized to N transactions*/ 
+	 /* solution to the problem generalized to K transactions*/ 
 	 public int maxProfitK(int[] prices, int K){
 		 int[] profit = new int[K*2]; 
 		 for (int k=0; k<K; k++) profit[k*2] = Integer.MIN_VALUE; 

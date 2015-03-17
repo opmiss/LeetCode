@@ -18,9 +18,33 @@ public class Match {
 	 * isMatch("aab", "c*a*b") -> false
 	 */
 	boolean isWildcardMatch(String s, String p){
-		
-		
-		return false; 
+		int sl = s.length(); 
+		int pl = p.length(); 
+		int si=0, pi=0, star=-1, stop=-1; 
+		while (si<sl){
+			if (pi<pl && (s.charAt(si)==p.charAt(pi) || p.charAt(pi)=='?')){
+				si++; pi++;  
+			}
+			else if (pi<pl && p.charAt(pi)=='*'){
+				star = pi++; stop = si; 
+			}
+			else if (star>=0) {
+				pi = star+1; si=++stop; continue; 
+			}
+			else return false; 
+		}
+		while (pi<pl && p.charAt(pi)=='*') pi++;
+		return (pi==pl); 
+	}
+	
+	public void testWildcardMatch(){
+		System.out.println(isWildcardMatch("cabba", "c*ba")); 
+		System.out.println(isWildcardMatch("cabba", "c*baa")); 
+		System.out.println(isWildcardMatch("aab", "c*a*b")); 
+		System.out.println(isWildcardMatch("", "*")); 
+		System.out.println(isWildcardMatch("aa", "*"));
+		System.out.println(isWildcardMatch("aa", "a")); 
+		System.out.println(isWildcardMatch("", "")); 
 	}
 	/*
 	 * Implement regular expression matching with support for '.' and '*'.
@@ -38,8 +62,12 @@ public class Match {
 	 * isMatch("ab", ".*") -> true
 	 * isMatch("aab", "c*a*b") -> true
 	 */
-	
 	boolean isRegularMatch(String s, String p){
-		return false; 
+		
+	}
+	
+	public static void main(String[] args){
+		Match m = new Match(); 
+		m.testWildcardMatch();
 	}
 }

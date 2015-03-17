@@ -63,11 +63,38 @@ public class Match {
 	 * isMatch("aab", "c*a*b") -> true
 	 */
 	boolean isRegularMatch(String s, String p){
-		
+		int sl = s.length(), pl = p.length(); 
+		int si =0, pi=0;
+		while (si<sl){
+			if (pi==pl-1 || (pi+1<pl && p.charAt(pi+1)!='*')){
+				if (p.charAt(pi)=='.' || s.charAt(si)==p.charAt(pi)) {pi++; si++;}
+				else return false; 
+			}
+			else if (pi+1<pl){ 
+				if (isRegularMatch(s.substring(si), p.substring(pi+2))) return true; 
+				else if (p.charAt(pi)=='.' || s.charAt(si)==p.charAt(pi)) si++; 
+				else return false; 
+			}
+			else return false; 
+		}
+		while (pi+1<pl&&p.charAt(pi+1)=='*') pi+=2; 
+		return (si==sl && pi==pl); 
+	}
+	
+	public void testRegularMatch(){
+		System.out.println(isRegularMatch("aa", "a")); 
+		System.out.println(isRegularMatch("aa", "aa")); 
+		System.out.println(isRegularMatch("aaa", "aa")); 
+		System.out.println(isRegularMatch("aa", "a*")); 
+		System.out.println(isRegularMatch("aa", ".*")); 
+		System.out.println(isRegularMatch("ab", ".*")); 
+		System.out.println(isRegularMatch("aab", "c*a*b")); 
+		System.out.println(isRegularMatch("abcd", "d*"));
+		System.out.println(isRegularMatch("ab", ".*c")); 
 	}
 	
 	public static void main(String[] args){
 		Match m = new Match(); 
-		m.testWildcardMatch();
+		m.testRegularMatch();
 	}
 }

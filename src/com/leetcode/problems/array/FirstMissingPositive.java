@@ -28,6 +28,4 @@ public class FirstMissingPositive {
 		}
 		return A.length + 1;
 	}
-	
-	
 }

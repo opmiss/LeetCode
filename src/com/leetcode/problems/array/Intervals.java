@@ -1,5 +1,4 @@
 package com.leetcode.problems.array;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Collections;

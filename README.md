@@ -1,13 +1,16 @@
 # LeetCode
 ##Algorithms
-* 207 [Course Schedule]() Medium 
-* 206 [Reverse Linked List]() Easy
-* 205 [Isomorphic Strings]() Easy 
-* 204 [Count Primes]() Easy 
-* 203 [Remove Linked List Elements]() Easy 
-* 202 [Happy Number]() Easy 
-* 201 [Bitwise AND of Numbers Range]() Medium 
-* 200 [Number of Islands]() Medium 
+* 210 [Course Schedule II](https://github.com/opmiss/LeetCode/blob/master/src/com/leetcode/algorithms/P210_CourseSchedule2.java) Medium
+* 209 [Minimum Size Subarray Sum](https://github.com/opmiss/LeetCode/blob/master/src/com/leetcode/algorithms/P209_MinimumSizeSubarraySum.java) Medium
+* 210 [Implement Trie](https://github.com/opmiss/LeetCode/blob/master/src/com/leetcode/algorithms/P208_ImplementTrie.java)
+* 207 [Course Schedule](https://github.com/opmiss/LeetCode/blob/master/src/com/leetcode/algorithms/P207_CourseSchedule.java) Medium 
+* 206 [Reverse Linked List](https://github.com/opmiss/LeetCode/blob/master/src/com/leetcode/algorithms/P206_ReverseLinkedList.java) Easy
+* 205 [Isomorphic Strings](https://github.com/opmiss/LeetCode/blob/master/src/com/leetcode/algorithms/P205_IsomorphicStrings.java) Easy 
+* 204 [Count Primes](https://github.com/opmiss/LeetCode/blob/master/src/com/leetcode/algorithms/P204_CountPrimes.java) Easy 
+* 203 [Remove Linked List Elements](https://github.com/opmiss/LeetCode/blob/master/src/com/leetcode/algorithms/P203_RemoveLinkedListElements.java) Easy 
+* 202 [Happy Number](https://github.com/opmiss/LeetCode/blob/master/src/com/leetcode/algorithms/P202_HappyNumber.java) Easy 
+* 201 [Bitwise AND of Numbers Range](https://github.com/opmiss/LeetCode/blob/master/src/com/leetcode/algorithms/P201_BitwiseANDofNumbersRange.java) Medium 
+* 200 [Number of Islands](https://github.com/opmiss/LeetCode/blob/master/src/com/leetcode/algorithms/P200_NumberofIslands.java) Medium 
 * 199 [Binary Tree Right Side View]() Medium 
 * 198 [House Robber]() Easy 
 * 191 [Number of 1 Bits]() Easy 

@@ -12,9 +12,9 @@
 * 201 [Bitwise AND of Numbers Range](https://github.com/opmiss/LeetCode/blob/master/src/com/leetcode/algorithms/P201_BitwiseANDofNumbersRange.java) Medium 
 * 200 [Number of Islands](https://github.com/opmiss/LeetCode/blob/master/src/com/leetcode/algorithms/P200_NumberofIslands.java) Medium 
 * 199 [Binary Tree Right Side View](src/com/leetcode/algorithms/P199_BinaryTreeRightSideView.java) Medium 
-* 198 [House Robber]() Easy 
-* 191 [Number of 1 Bits]() Easy 
-* 190 [Reverse Bits]() Easy 
+* 198 [House Robber](src/com/leetcode/algorithms/P198_HouseRobber.java) Easy 
+* 191 [Number of 1 Bits](src/com/leetcode/algorithms/P191_Numberof1Bits.java) Easy 
+* 190 [Reverse Bits](src/com/leetcode/algorithms/P190_ReverseBits.java) Easy 
 * 189 [Rotate Array]() Easy 
 * 188 [Best Time to Buy and Sell Stock IV]() Hard 
 * 187 [Repeated DNA Sequences]() Medium 

@@ -15,14 +15,14 @@
 * 198 [House Robber](src/com/leetcode/algorithms/P198_HouseRobber.java) Easy 
 * 191 [Number of 1 Bits](src/com/leetcode/algorithms/P191_Numberof1Bits.java) Easy 
 * 190 [Reverse Bits](src/com/leetcode/algorithms/P190_ReverseBits.java) Easy 
-* 189 [Rotate Array]() Easy 
-* 188 [Best Time to Buy and Sell Stock IV]() Hard 
-* 187 [Repeated DNA Sequences]() Medium 
-* 186 [Reverse Words in a String II]() Medium 
-* 179 [Largest Number]() Medium 
-* 174 [Dungeon Game]() Hard 
-* 173 [Binary Search Tree Iterator]() Medium 
-* 172 [Factorial Trailing Zeroes](/problems/factorial-trailing-zeroes/) Easy 
+* 189 [Rotate Array](src/com/leetcode/algorithms/P189_RotateArray.java) Easy 
+* 188 [Best Time to Buy and Sell Stock IV](src/com/leetcode/algorithms/P188_BestTimetoBuyandSellStock.java) Hard 
+* 187 [Repeated DNA Sequences](src/com/leetcode/algorithms/P187_RepeatedDNASequences.java) Medium 
+* 186 [Reverse Words in a String II](src/com/leetcode/algorithms/P186_ReverseWordsinaString2.java) Medium 
+* 179 [Largest Number](src/com/leetcode/algorithms/P179_LargestNumber.java) Medium 
+* 174 [Dungeon Game](src/com/leetcode/algorithms/P174_DungeonGame.java) Hard 
+* 173 [Binary Search Tree Iterator](src/com/leetcode/algorithms/P173_BinarySearchTreeIterator.java) Medium 
+* 172 [Factorial Trailing Zeroes](src/com/leetcode/algorithms/P172_FactorialTrailingZeroes.java) Easy 
 * 171 [Excel Sheet Column Number](/problems/excel-sheet-column-number/) Easy 
 * 170 [Two Sum III - Data structure design](/problems/two-sum-iii-data-structure-design/) Easy 
 * 169 [Majority Element](/problems/majority-element/) Easy 

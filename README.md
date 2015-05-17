@@ -1,16 +1,16 @@
 # LeetCode
 ##Algorithms
-* 210 [Course Schedule II](https://github.com/opmiss/LeetCode/blob/master/src/com/leetcode/algorithms/P210_CourseSchedule2.java) Medium
-* 209 [Minimum Size Subarray Sum](https://github.com/opmiss/LeetCode/blob/master/src/com/leetcode/algorithms/P209_MinimumSizeSubarraySum.java) Medium
-* 210 [Implement Trie](https://github.com/opmiss/LeetCode/blob/master/src/com/leetcode/algorithms/P208_ImplementTrie.java)
-* 207 [Course Schedule](https://github.com/opmiss/LeetCode/blob/master/src/com/leetcode/algorithms/P207_CourseSchedule.java) Medium 
-* 206 [Reverse Linked List](https://github.com/opmiss/LeetCode/blob/master/src/com/leetcode/algorithms/P206_ReverseLinkedList.java) Easy
-* 205 [Isomorphic Strings](https://github.com/opmiss/LeetCode/blob/master/src/com/leetcode/algorithms/P205_IsomorphicStrings.java) Easy 
-* 204 [Count Primes](https://github.com/opmiss/LeetCode/blob/master/src/com/leetcode/algorithms/P204_CountPrimes.java) Easy 
-* 203 [Remove Linked List Elements](https://github.com/opmiss/LeetCode/blob/master/src/com/leetcode/algorithms/P203_RemoveLinkedListElements.java) Easy 
-* 202 [Happy Number](https://github.com/opmiss/LeetCode/blob/master/src/com/leetcode/algorithms/P202_HappyNumber.java) Easy 
-* 201 [Bitwise AND of Numbers Range](https://github.com/opmiss/LeetCode/blob/master/src/com/leetcode/algorithms/P201_BitwiseANDofNumbersRange.java) Medium 
-* 200 [Number of Islands](https://github.com/opmiss/LeetCode/blob/master/src/com/leetcode/algorithms/P200_NumberofIslands.java) Medium 
+* 210 [Course Schedule II](src/com/leetcode/algorithms/P210_CourseSchedule2.java) Medium
+* 209 [Minimum Size Subarray Sum](src/com/leetcode/algorithms/P209_MinimumSizeSubarraySum.java) Medium
+* 210 [Implement Trie](src/com/leetcode/algorithms/P208_ImplementTrie.java)
+* 207 [Course Schedule](src/com/leetcode/algorithms/P207_CourseSchedule.java) Medium 
+* 206 [Reverse Linked List](src/com/leetcode/algorithms/P206_ReverseLinkedList.java) Easy
+* 205 [Isomorphic Strings](src/com/leetcode/algorithms/P205_IsomorphicStrings.java) Easy 
+* 204 [Count Primes](src/com/leetcode/algorithms/P204_CountPrimes.java) Easy 
+* 203 [Remove Linked List Elements](src/com/leetcode/algorithms/P203_RemoveLinkedListElements.java) Easy 
+* 202 [Happy Number](src/com/leetcode/algorithms/P202_HappyNumber.java) Easy 
+* 201 [Bitwise AND of Numbers Range](src/com/leetcode/algorithms/P201_BitwiseANDofNumbersRange.java) Medium 
+* 200 [Number of Islands](src/com/leetcode/algorithms/P200_NumberofIslands.java) Medium 
 * 199 [Binary Tree Right Side View](src/com/leetcode/algorithms/P199_BinaryTreeRightSideView.java) Medium 
 * 198 [House Robber](src/com/leetcode/algorithms/P198_HouseRobber.java) Easy 
 * 191 [Number of 1 Bits](src/com/leetcode/algorithms/P191_Numberof1Bits.java) Easy 
@@ -23,18 +23,18 @@
 * 174 [Dungeon Game](src/com/leetcode/algorithms/P174_DungeonGame.java) Hard 
 * 173 [Binary Search Tree Iterator](src/com/leetcode/algorithms/P173_BinarySearchTreeIterator.java) Medium 
 * 172 [Factorial Trailing Zeroes](src/com/leetcode/algorithms/P172_FactorialTrailingZeroes.java) Easy 
-* 171 [Excel Sheet Column Number](/problems/excel-sheet-column-number/) Easy 
-* 170 [Two Sum III - Data structure design](/problems/two-sum-iii-data-structure-design/) Easy 
-* 169 [Majority Element](/problems/majority-element/) Easy 
-* 168 [Excel Sheet Column Title](/problems/excel-sheet-column-title/) Easy 
-* 167 [Two Sum II - Input array is sorted](/problems/two-sum-ii-input-array-is-sorted/) Medium 
-* 166 [Fraction to Recurring Decimal](/problems/fraction-to-recurring-decimal/) Medium 
-* 165 [Compare Version Numbers](/problems/compare-version-numbers/) Easy 
-* 164 [Maximum Gap](/problems/maximum-gap/) Hard 
-* 163 [Missing Ranges](/problems/missing-ranges/) Medium 
-* 162 [Find Peak Element](/problems/find-peak-element/) Medium 
-* 161 [One Edit Distance](/problems/one-edit-distance/) Medium 
-* 160 [Intersection of Two Linked Lists](/problems/intersection-of-two-linked-lists/) Easy 
+* 171 [Excel Sheet Column Number](src/com/leetcode/algorithms/P171_ExcelSheetColumnNumber.java) Easy 
+* 170 [Two Sum III - Data structure design](src/com/leetcode/algorithms/P170_TwoSum3.java) Easy 
+* 169 [Majority Element](src/com/leetcode/algorithms/P169_MajorityElement.java) Easy 
+* 168 [Excel Sheet Column Title](src/com/leetcode/algorithms/P168_ExcelSheetColumnTitle.java) Easy 
+* 167 [Two Sum II - Input array is sorted](src/com/leetcode/algorithms/P167_TwoSum2.java) Medium 
+* 166 [Fraction to Recurring Decimal](src/com/leetcode/algorithms/P166_FractiontoRecurringDecimal.java) Medium 
+* 165 [Compare Version Numbers](src/com/leetcode/algorithms/P165_CompareVersionNumbers.java) Easy 
+* 164 [Maximum Gap](src/com/leetcode/algorithms/P164_MaximumGap.java) Hard 
+* 163 [Missing Ranges](src/com/leetcode/algorithms/P163_MissingRanges.java) Medium 
+* 162 [Find Peak Element](src/com/leetcode/algorithms/P162_FindPeakElement.java) Medium 
+* 161 [One Edit Distance](src/com/leetcode/algorithms/P161_OneEditDistance.java) Medium 
+* 160 [Intersection of Two Linked Lists](src/com/leetcode/algorithms/P160_IntersectionofTwoLinkedLists.java) Easy 
 * 159 [Longest Substring with At Most Two Distinct Characters](/problems/longest-substring-with-at-most-two-distinct-characters/) Hard 
 * 158 [Read N Characters Given Read4 II - Call multiple times](/problems/read-n-characters-given-read4-ii-call-multiple-times/) Hard 
 * 157 [Read N Characters Given Read4](/problems/read-n-characters-given-read4/) Easy 

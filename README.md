@@ -55,16 +55,16 @@
 * 142 [Linked List Cycle II](src/com/leetcode/algorithms/P142_LinkedListCycle2.java) Medium 
 * 141 [Linked List Cycle](src/com/leetcode/algorithms/P141_LinkedListCycle.java) Medium 
 * 140 [Word Break II](src/com/leetcode/algorithms/P140_WordBreak2.java) Hard
-* 139 [Word Break](/problems/word-break/) Medium 
-* 138 [Copy List with Random Pointer](/problems/copy-list-with-random-pointer/) Hard 
-* 137 [Single Number II](/problems/single-number-ii/) Medium 
-* 136 [Single Number](/problems/single-number/) Medium 
-* 135 [Candy](/problems/candy/) Hard 
-* 134 [Gas Station](/problems/gas-station/) Medium 
-* 133 [Clone Graph](/problems/clone-graph/) Medium 
-* 132 [Palindrome Partitioning II](/problems/palindrome-partitioning-ii/) Hard 
-* 131 [Palindrome Partitioning](/problems/palindrome-partitioning/) Medium 
-* 130 [Surrounded Regions](/problems/surrounded-regions/) Medium 
+* 139 [Word Break](src/com/leetcode/algorithms/P139_WordBreak.java) Medium 
+* 138 [Copy List with Random Pointer](src/com/leetcode/algorithms/P138_CopyListwithRandomPointer.java) Hard 
+* 137 [Single Number II](src/com/leetcode/algorithms/P137_SingleNumber2.java) Medium 
+* 136 [Single Number](src/com/leetcode/algorithms/P136_SingleNumber.java) Medium 
+* 135 [Candy](src/com/leetcode/algorithms/P135_Candy.java) Hard 
+* 134 [Gas Station](src/com/leetcode/algorithms/P134_GasStation.java) Medium 
+* 133 [Clone Graph](src/com/leetcode/algorithms/P133_CloneGraph.java) Medium 
+* 132 [Palindrome Partitioning II](src/com/leetcode/algorithms/P132_PalindromePartition2.java) Hard 
+* 131 [Palindrome Partitioning](src/com/leetcode/algorithms/P131_PalindromePartition.java) Medium 
+* 130 [Surrounded Regions](src/com/leetcode/algorithms/P130_SurroundedRegions.java) Medium 
 * 129 [Sum Root to Leaf Numbers](/problems/sum-root-to-leaf-numbers/) Medium 
 * 128 [Longest Consecutive Sequence](/problems/longest-consecutive-sequence/) Hard
 * 127 [Word Ladder](/problems/word-ladder/) Medium 

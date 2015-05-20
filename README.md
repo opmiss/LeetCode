@@ -65,16 +65,16 @@
 * 132 [Palindrome Partitioning II](src/com/leetcode/algorithms/P132_PalindromePartition2.java) Hard 
 * 131 [Palindrome Partitioning](src/com/leetcode/algorithms/P131_PalindromePartition.java) Medium 
 * 130 [Surrounded Regions](src/com/leetcode/algorithms/P130_SurroundedRegions.java) Medium 
-* 129 [Sum Root to Leaf Numbers](/problems/sum-root-to-leaf-numbers/) Medium 
-* 128 [Longest Consecutive Sequence](/problems/longest-consecutive-sequence/) Hard
-* 127 [Word Ladder](/problems/word-ladder/) Medium 
-* 126 [Word Ladder II](/problems/word-ladder-ii/) Hard 
-* 125 [Valid Palindrome](/problems/valid-palindrome/) Easy 
-* 124 [Binary Tree Maximum Path Sum](/problems/binary-tree-maximum-path-sum/) Hard 
-* 123 [Best Time to Buy and Sell Stock III](/problems/best-time-to-buy-and-sell-stock-iii/) Hard 
-* 122 [Best Time to Buy and Sell Stock II](/problems/best-time-to-buy-and-sell-stock-ii/) Medium 
-* 121 [Best Time to Buy and Sell Stock](/problems/best-time-to-buy-and-sell-stock/) Medium 
-* 120 [Triangle](/problems/triangle/) Medium 
+* 129 [Sum Root to Leaf Numbers](src/com/leetcode/algorithms/P129_SumRoottoLeafNumbers.java) Medium 
+* 128 [Longest Consecutive Sequence](src/com/leetcode/algorithms/P128_LongestConsecutiveSequence.java) Hard
+* 127 [Word Ladder](src/com/leetcode/algorithms/P127_WordLadder.java) Medium 
+* 126 [Word Ladder II](src/com/leetcode/algorithms/P126_WordLadder2.java) Hard 
+* 125 [Valid Palindrome](src/com/leetcode/algorithms/P125_ValidPalindrome.java) Easy 
+* 124 [Binary Tree Maximum Path Sum](src/com/leetcode/algorithms/P124_BinaryTreeMaximumPathSum.java) Hard 
+* 123 [Best Time to Buy and Sell Stock III](src/com/leetcode/algorithms/P123_BestTimetoBuyandSellStock3.java) Hard 
+* 122 [Best Time to Buy and Sell Stock II](src/com/leetcode/algorithms/P122_BestTimetoBuyandSellStock2.java) Medium 
+* 121 [Best Time to Buy and Sell Stock](src/com/leetcode/algorithms/P121_BestTimetoBuyandSellStock.java) Medium 
+* 120 [Triangle](src/com/leetcode/algorithms/P120_Triangle.java) Medium 
 * 119 [Pascal's Triangle II](/problems/pascals-triangle-ii/) Easy 
 * 118 [Pascal's Triangle](/problems/pascals-triangle/) Easy 
 * 117 [Populating Next Right Pointers in Each Node II](/problems/populating-next-right-pointers-in-each-node-ii/) Hard 

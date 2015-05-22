@@ -188,9 +188,9 @@
 * 9 [Palindrome Number](/problems/palindrome-number/) Easy
 * 8 [String to Integer (atoi)](/problems/string-to-integer-atoi/) Easy 
 * 7 [Reverse Integer](/problems/reverse-integer/) Easy 
-* 6 [ZigZag Conversion](/problems/zigzag-conversion/) Easy 
-* 5 [Longest Palindromic Substring](/problems/longest-palindromic-substring/) Medium 
-* 4 [Median of Two Sorted Arrays](/problems/median-of-two-sorted-arrays/) Hard 
-* 3 [Longest Substring Without Repeating Characters](/problems/longest-substring-without-repeating-characters/) Medium 
-* 2 [Add Two Numbers](/problems/add-two-numbers/) Medium 
-* 1 [Two Sum](/problems/two-sum/) Medium
+* 6 [ZigZag Conversion](src/com/leetcode/algorithms/P006_ZigZagConversion.java) Easy 
+* 5 [Longest Palindromic Substring](src/com/leetcode/algorithms/P005_LongestPalindrom.java) Medium 
+* 4 [Median of Two Sorted Arrays](src/com/leetcode/algorithms/P004_MedianTwoSortedArrays.java) Hard 
+* 3 [Longest Substring Without Repeating Characters](src/com/leetcode/algorithms/P003_LongestSubstringNoRepeating.java) Medium 
+* 2 [Add Two Numbers](src/com/leetcode/algorithms/P002_AddTwoNumbers.java) Medium 
+* 1 [Two Sum](src/com/leetcode/algorithms/P001_TwoSum.java) Medium

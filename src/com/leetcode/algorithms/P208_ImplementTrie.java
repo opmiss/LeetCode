@@ -60,5 +60,11 @@ public class P208_ImplementTrie {
 	// Trie trie = new Trie();
 	// trie.insert("somestring");
 	// trie.search("key");
+	
+	public static void main(String[] args){
+		String value = null; 
+		String word = ""; 
+		System.out.println(word.equals(value)); 
+	}
 
 }

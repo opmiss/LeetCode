@@ -2,8 +2,8 @@ package com.leetcode.problems.tree;
 import java.util.*;
 
 public class TrieNode {
-	boolean endhere = false; 
-    TrieNode[] child = null; 
+	public boolean endhere = false; 
+    public TrieNode[] child = null; 
     public TrieNode() {
     }
     public void insert(String w){

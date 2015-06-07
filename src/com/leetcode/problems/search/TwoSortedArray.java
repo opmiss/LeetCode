@@ -1,4 +1,4 @@
-package com.leetcode.problems.dc;
+package com.leetcode.problems.search;
 
 import java.util.Arrays;
 

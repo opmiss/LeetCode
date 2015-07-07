@@ -10,14 +10,20 @@ package com.leetcode.algorithms;
 public class P214_ShortestPalindrome {
 	
 	class Element{
-		char ch; 
-		int leng; 
-		Element(){
-			
+		public String pattern; 
+		public int repeat; 
+		public Element(String p){
+			pattern = p;
+			repeat = 1; 
 		}
 	}
 	
 	public String shortestPalindrome(String s){
+		int i=0; 
+		while (i<s.length()){
+			
+		}
+		
 		StringBuffer sb = new StringBuffer(s); 
 		sb = sb.reverse(); 
 		return null; 

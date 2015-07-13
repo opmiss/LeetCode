@@ -45,4 +45,12 @@ public class P236_LowestCommonAncestor {
         DataNode droot = create(root, p, q); 
         return search(root, droot); 
     }
+    
+    public TreeNode lowestCommonAncestorBST(TreeNode root, TreeNode p, TreeNode q) {
+        if (root==null) return null; 
+        if (root.val==p.val||root.val==q.val) return root; 
+        if (p.val<root.val && q.val<root.val) return lowestCommonAncestor(root.left, p, q); 
+        if (p.val>root.val && q.val>root.val) return lowestCommonAncestor(root.right, p, q);
+        return root; 
+    }
 }

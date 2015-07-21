@@ -30,6 +30,7 @@ public class KMPSearch {
 				if (T[i]>-1) {
 					m=m+i-T[i]; 
 					i=T[i]; 
+					System.out.println(m); 
 				}
 				else {
 					i=0; 
@@ -41,14 +42,17 @@ public class KMPSearch {
 	}
 	
 	public void test(){
-		String haystack = "participating parachute";
-		String needle = "pat"; 
+		String haystack = "abcabcabcedcbacbacbacba";
+		String needle = "abcabcabcdecbacbacbacba"; 
 		System.out.println(strStr(haystack, needle)); 
 		
 	}
 	
 	public static void main(String[] args){
 		KMPSearch kmp = new KMPSearch(); 
-		kmp.test(); 
+		kmp.test();
+		//int[] T=kmp.computeTable("abababababde");
+		//System.out.println(); 
+		//for (int i=0; i<T.length; i++) System.out.print(T[i]); 
 	}
 }

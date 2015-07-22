@@ -1,5 +1,10 @@
 # LeetCode
 ##Algorithms
+* 215 [Kth Largest Element in an Array](src/com/leetcode/algorithms/P215_KthLargestElement.java) Medium
+* 214 [Shortest Palindrome](src/com/leetcode/algorithms/P214_ShortestPalindrome.java) Hard
+* 213 [House Robber II](src/com/leetcode/algorithms/P213_HouseRobber.java) Medium
+* 212 [Word Search II](src/com/leetcode/algorithms/P212_WordSearch.java) Hard
+* 211 [Add and Search Word - Data structure design](src/com/leetcode/algorithms/P211_AddSearchWord.java) Medium
 * 210 [Course Schedule II](src/com/leetcode/algorithms/P210_CourseSchedule2.java) Medium
 * 209 [Minimum Size Subarray Sum](src/com/leetcode/algorithms/P209_MinimumSizeSubarraySum.java) Medium
 * 210 [Implement Trie](src/com/leetcode/algorithms/P208_ImplementTrie.java)

@@ -1,5 +1,5 @@
 package com.leetcode.algorithms;
 
-public class P036_ValidSudoku {
+public class P042_TrappingWater {
 
 }

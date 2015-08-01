@@ -1,4 +1,5 @@
 package com.leetcode.algorithms;
+import java.util.*;
 /* 
  * Given a string S, you are allowed to convert it to a palindrome by adding characters in front of it. 
  * Find and return the shortest palindrome you can find by performing this transformation.
@@ -9,66 +10,29 @@ package com.leetcode.algorithms;
 
 public class P214_ShortestPalindrome {
 	
-	class Element{
-		public String pattern; 
-		public int repeat; 
-		public Element(String p){
-			pattern = p;
-			repeat = 1; 
-		}
-	}
-	
 	public String shortestPalindrome(String s){
-		int i=0; 
-		while (i<s.length()){
-			
-		}
-		
-		StringBuffer sb = new StringBuffer(s); 
-		sb = sb.reverse(); 
-		return null; 
+		String r = new StringBuilder(s).reverse().toString();
+		//max match between prefix of s and suffix of r 
+		int[] table = computeTable(s+'|'+r); 
+		return r.substring(0, r.length()-table[table.length-1])+s; 
 	}
 	
 	public int[] computeTable(String W){
 		int[] T = new int[W.length()]; 
-		int pos = 2, cnd=0; 
-		T[0]=-1; T[1]=0; 
+		int pos = 1, leng=0;  
 		while (pos <W.length()){
-			if (W.charAt(pos-1)==W.charAt(cnd)){
-				T[pos]=++cnd; 
-				pos++;
+			if (W.charAt(pos)==W.charAt(leng)){
+				T[pos++]=++leng; 
 			}
-			else if (cnd>0){
-				cnd=T[cnd]; 
+			else if (leng>0){
+				leng=T[leng-1]; 
 			}
 			else T[pos++]=0; 
 		}
 		return T; 
 	}
-	
-	public int strStr(String S, String W){
-		int m=0, i=0; 
-		int[] T=computeTable(W); 
-		while (m+i<S.length()){
-			if (W.charAt(i) == S.charAt(i+m)){
-				if (i==W.length()-1) return m; 
-				i++; 
-			}
-			else {
-				if (T[i]>-1) {
-					m=m+i-T[i]; 
-					i=T[i]; 
-				}
-				else {
-					i=0; 
-					m=m+1; 
-				}
-			}
-		}
-		return -1; 
-	}
-	
 	public static void main(String[] args){
-		
+		P214_ShortestPalindrome p = new P214_ShortestPalindrome(); 
+		System.out.println(p.shortestPalindrome("aacecaaa")); 
 	}
 }

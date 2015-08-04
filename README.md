@@ -1,5 +1,10 @@
 # LeetCode
 ##Algorithms
+* 220 [Contains Duplicate III](src/com/leetcode/algorithms/P217_ContainsDuplicate.java) Medium
+* 219 [Contains Duplicate II](src/com/leetcode/algorithms/P217_ContainsDuplicate.java) Easy
+* 218 [The Skyline Problem](src/com/leetcode/algorithms/P218_SkylineProblem.java) Hard 
+* 217 [Contains Duplicate](src/com/leetcode/algorithms/P217_ContainsDuplicate.java) Easy
+* 216 [Combination Sum III](src/com/leetcode/algorithms/P216_CombinationSum.java) Medium
 * 215 [Kth Largest Element in an Array](src/com/leetcode/algorithms/P215_KthLargestElement.java) Medium
 * 214 [Shortest Palindrome](src/com/leetcode/algorithms/P214_ShortestPalindrome.java) Hard
 * 213 [House Robber II](src/com/leetcode/algorithms/P213_HouseRobber.java) Medium

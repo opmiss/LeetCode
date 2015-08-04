@@ -15,10 +15,10 @@ public class P269_AlienDictionary {
 			ch = c; 
 			nb = new HashSet<Vertex>(); 
 		}
-		/*@Override
+		@Override
 		public int hashCode(){
 			return ch; 
-		}*/
+		}
 	}
 	
 	public String alienOrder(String[] words) {

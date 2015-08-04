@@ -1,5 +1,11 @@
 # LeetCode
 ##Algorithms
+* 226 [Invert Binary Tree]() Easy
+* 225 [Implement Stack using Queues]() Easy
+* 224 [Basic Calculator]() Medium
+* 223 [Rectangle Area]() Easy
+* 222 [Count Complete Tree Nodes]() Medium 
+* 221 [Maximal Square]() Medium
 * 220 [Contains Duplicate III](src/com/leetcode/algorithms/P217_ContainsDuplicate.java) Medium
 * 219 [Contains Duplicate II](src/com/leetcode/algorithms/P217_ContainsDuplicate.java) Easy
 * 218 [The Skyline Problem](src/com/leetcode/algorithms/P218_SkylineProblem.java) Hard 

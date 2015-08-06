@@ -1,5 +1,16 @@
 # LeetCode
 ##Algorithms
+* 242 [Valid Anagram]() Easy
+* 241 [Different Ways to Add Parentheses]() Medium
+* 240 [Search a 2D Matrix II]() Medium
+* 239 [Sliding Window Maximum]() Hard
+* 238 [Product of Array Except Self]() Medium
+* 237 [Delete Node in a Linked List]() Easy
+* 236 [Lowest Common Ancestor of a Binary Tree]() Medium
+* 235 [Lowest Common Ancestor of a Binary Search Tree]() Easy
+* 234 [Palindrome Linked List]() Easy
+* 233 [Number of Digit One]() Medium 
+* 232 [Implement Queue using Stacks]() Easy 
 * 231 [Power of Two]() Easy
 * 230 [Kth Smallest Element in a BST]() Medium
 * 229 [Majority Element II]() Medium

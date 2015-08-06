@@ -1,5 +1,10 @@
 # LeetCode
 ##Algorithms
+* 231 [Power of Two]() Easy
+* 230 [Kth Smallest Element in a BST]() Medium
+* 229 [Majority Element II]() Medium
+* 228 [Summary Ranges]() Easy
+* 227 [Basic Calculator II]() Medium
 * 226 [Invert Binary Tree]() Easy
 * 225 [Implement Stack using Queues]() Easy
 * 224 [Basic Calculator]() Medium

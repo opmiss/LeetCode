@@ -15,12 +15,12 @@
 * 230 [Kth Smallest Element in a BST]() Medium
 * 229 [Majority Element II]() Medium
 * 228 [Summary Ranges]() Easy
-* 227 [Basic Calculator II]() Medium
+* 227 [Basic Calculator II](src/com/leetcode/algorithms/P224_BasicCalculator.java) Medium
 * 226 [Invert Binary Tree]() Easy
 * 225 [Implement Stack using Queues]() Easy
-* 224 [Basic Calculator]() Medium
-* 223 [Rectangle Area](src/com/leetcode/algorithms/P223_RectangleArea) Easy
-* 222 [Count Complete Tree Nodes]() Medium 
+* 224 [Basic Calculator](src/com/leetcode/algorithms/P224_BasicCalculator.java) Medium
+* 223 [Rectangle Area](src/com/leetcode/algorithms/P223_RectangleArea.java) Easy
+* 222 [Count Complete Tree Nodes](src/com/leetcode/algorithms/P222_CountTreeNodes.java) Medium 
 * 221 [Maximal Square](src/com/leetcode/algorithms/P221_MaximalSquare.java) Medium
 * 220 [Contains Duplicate III](src/com/leetcode/algorithms/P217_ContainsDuplicate.java) Medium
 * 219 [Contains Duplicate II](src/com/leetcode/algorithms/P217_ContainsDuplicate.java) Easy
@@ -136,7 +136,7 @@
 * 93 [Restore IP Addresses](src/com/leetcode/algorithms/P093_RestoreIPAddresses.java) Medium 
 * 92 [Reverse Linked List II](src/com/leetcode/algorithms/P092_ReverseLinkedList2.java) Medium 
 * 91 [Decode Ways](src/com/leetcode/algorithms/P091_DecodeWays.java) Medium 
-* 90 [Subsets II](/problems/subsets-ii/) Medium 
+* 90 [Subsets II](src/com/leetcode/algorithms/P078_Subsets.java) Medium 
 * 89 [Gray Code](/problems/gray-code/) Medium 
 * 88 [Merge Sorted Array](/problems/merge-sorted-array/) Easy 
 * 87 [Scramble String](/problems/scramble-string/) Hard 
@@ -148,7 +148,7 @@
 * 81 [Search in Rotated Sorted Array II](/problems/search-in-rotated-sorted-array-ii/) Medium 
 * 80 [Remove Duplicates from Sorted Array II](/problems/remove-duplicates-from-sorted-array-ii/) Medium 
 * 79 [Word Search](/problems/word-search/) Medium 
-* 78 [Subsets](/problems/subsets/) Medium 
+* 78 [Subsets](src/com/leetcode/algorithms/P078_Subsets.java) Medium 
 * 77 [Combinations](/problems/combinations/) Medium 
 * 76 [Minimum Window Substring](/problems/minimum-window-substring/) Hard 
 * 75 [Sort Colors](/problems/sort-colors/) Medium 
@@ -212,10 +212,10 @@
 * 17 [Letter Combinations of a Phone Number](src/com/leetcode/algorithms/P017_PhoneNumber.java) Medium 
 * 16 [3Sum Closest](src/com/leetcode/algorithms/P016_3SumClosest.java) Medium 
 * 15 [3Sum](src/com/leetcode/algorithms/P015_3Sum.java) Medium 
-* 14 [Longest Common Prefix](/problems/longest-common-prefix/) Easy 
-* 13 [Roman to Integer](/problems/roman-to-integer/) Easy 
-* 12 [Integer to Roman](/problems/integer-to-roman/) Medium 
-* 11 [Container With Most Water](/problems/container-with-most-water/) Medium 
+* 14 [Longest Common Prefix](src/com/leetcode/algorithms/P014_LongestPrefix.java) Easy 
+* 13 [Roman to Integer](src/com/leetcode/algorithms/P015_3Sum.java) Easy 
+* 12 [Integer to Roman](src/com/leetcode/algorithms/P012_Roman.java) Medium 
+* 11 [Container With Most Water](src/com/leetcode/algorithms/P011_Container.java) Medium 
 * 10 [Regular Expression Matching](src/com/leetcode/algorithms/P010_RegularExpression.java) Hard 
 * 9 [Palindrome Number](src/com/leetcode/algorithms/P009_PalindromeNumber.java) Easy
 * 8 [String to Integer (atoi)](src/com/leetcode/algorithms/P008_ATOI.java) Easy 

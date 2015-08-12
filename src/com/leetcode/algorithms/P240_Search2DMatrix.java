@@ -6,14 +6,22 @@ public class P240_Search2DMatrix {
 	 * Integers in each row are sorted in ascending from left to right.
 	 * Integers in each column are sorted in ascending from top to bottom.
 	 */
+	
 	public boolean searchMatrix2(int[][] matrix, int target) {
-        int cur = 0; 
-        int last = matrix[0].length-1; 
-        while (cur<matrix.length){
-            if (matrix[cur][0] > target) return false; 
-            if (matrix[cur][0]== target || matrix[cur][last] == target) return true;
-            if (matrix[cur][last]>target && searchRow(matrix[cur], target)) return true; 
-            cur++; 
+        int m = matrix.length; 
+        if (m==0) return false; 
+        int n = matrix[0].length; 
+        int row=0, col=n-1;
+        while (row < m && col >=0){
+            if (matrix[row][col]>target){
+                col--; 
+            }
+            else if (matrix[row][col]<target){
+                row++; 
+            }
+            else {
+                return true; 
+            }
         }
         return false; 
     }

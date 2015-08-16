@@ -1,5 +1,21 @@
 # LeetCode
 ##Algorithms
+* 258 [Add Digits]() Easy
+* 257 [Binary Tree Paths]() Easy
+* 256 [Paint House]() Medium
+* 255 [Verify Preorder Sequence in Binary Search Tree]() Medium 
+* 254 [Factor Combinations]() Medium
+* 253 [Meeting Rooms II]() Medium
+* 252 [Meeting Rooms]() Easy
+* 251 [Flatten 2D Vector]() Medium
+* 250 [Count Univalue Subtrees]() Medium
+* 249 [Group Shifted Strings]() Easy
+* 248 [Strobogrammatic Number III]() Hard
+* 247 [Strobogrammatic Number II]() Medium
+* 246 [Strobogrammatic Number]() Easy
+* 245 [Shortest Word Distance III]() Medium
+* 244 [Shortest Word Distance II]() Medium
+* 243 [Shortest Word Distance]() Easy
 * 242 [Valid Anagram]() Easy
 * 241 [Different Ways to Add Parentheses]() Medium
 * 240 [Search a 2D Matrix II]() Medium

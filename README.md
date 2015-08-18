@@ -202,14 +202,14 @@
 * 43 [Multiply Strings](/problems/multiply-strings/) Medium 
 * 42 [Trapping Rain Water](/problems/trapping-rain-water/) Hard 
 * 41 [First Missing Positive](/problems/first-missing-positive/) Hard 
-* 40 [Combination Sum II](/problems/combination-sum-ii/) Medium 
-* 39 [Combination Sum](/problems/combination-sum/) Medium 
-* 38 [Count and Say](/problems/count-and-say/) Easy 
-* 37 [Sudoku Solver](/problems/sudoku-solver/) Hard 
-* 36 [Valid Sudoku](/problems/valid-sudoku/) Easy
-* 35 [Search Insert Position](/problems/search-insert-position/) Medium 
-* 34 [Search for a Range](/problems/search-for-a-range/) Medium 
-* 33 [Search in Rotated Sorted Array](/problems/search-in-rotated-sorted-array/) Hard 
+* 40 [Combination Sum II](src/com/leetcode/algorithms/P039_CombinationSum.java) Medium 
+* 39 [Combination Sum](src/com/leetcode/algorithms/P039_CombinationSum.java) Medium 
+* 38 [Count and Say](src/com/leetcode/algorithms/P038_CountSay.java) Easy 
+* 37 [Sudoku Solver](src/com/leetcode/algorithms/P037_SudokuSolver.java) Hard 
+* 36 [Valid Sudoku](src/com/leetcode/algorithms/P036_ValidSudoku.java) Easy
+* 35 [Search Insert Position](src/com/leetcode/algorithms/P035_InsertPosition.java) Medium 
+* 34 [Search for a Range](src/com/leetcode/algorithms/P034_SearchRange.java) Medium 
+* 33 [Search in Rotated Sorted Array](src/com/leetcode/algorithms/P033_RotatedArray.java) Hard 
 * 32 [Longest Valid Parentheses](src/com/leetcode/algorithms/P032_LongestParentheses.java) Hard 
 * 31 [Next Permutation](src/com/leetcode/algorithms/P031_NextPermutation.java) Medium
 * 30 [Substring with Concatenation of All Words](src/com/leetcode/algorithms/P030_Concatenate.java) Hard 

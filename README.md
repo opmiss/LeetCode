@@ -192,16 +192,16 @@
 * 53 [Maximum Subarray](/problems/maximum-subarray/) Medium 
 * 52 [N-Queens II](/problems/n-queens-ii/) Hard 
 * 51 [N-Queens](/problems/n-queens/) Hard 
-* 50 [Pow(x, n)](/problems/powx-n/) Medium 
-* 49 [Anagrams](/problems/anagrams/) Medium 
-* 48 [Rotate Image](/problems/rotate-image/) Medium 
-* 47 [Permutations II](/problems/permutations-ii/) Hard 
-* 46 [Permutations](/problems/permutations/) Medium 
-* 45 [Jump Game II](/problems/jump-game-ii/) Hard 
-* 44 [Wildcard Matching](/problems/wildcard-matching/) Hard 
-* 43 [Multiply Strings](/problems/multiply-strings/) Medium 
-* 42 [Trapping Rain Water](/problems/trapping-rain-water/) Hard 
-* 41 [First Missing Positive](/problems/first-missing-positive/) Hard 
+* 50 [Pow(x, n)](src/com/leetcode/algorithms/P050_Pow.java) Medium 
+* 49 [Anagrams](src/com/leetcode/algorithms/P049_Anagrams.java) Medium 
+* 48 [Rotate Image](src/com/leetcode/algorithms/P048_RotateImage.java) Medium 
+* 47 [Permutations II](src/com/leetcode/algorithms/P046_Permutations.java) Hard 
+* 46 [Permutations](src/com/leetcode/algorithms/P046_Permutations.java) Medium 
+* 45 [Jump Game II](src/com/leetcode/algorithms/P045_JumpGame2.java) Hard 
+* 44 [Wildcard Matching](src/com/leetcode/algorithms/P044_Wildcard.java) Hard 
+* 43 [Multiply Strings](src/com/leetcode/algorithms/P043_MultiplyStrings.java) Medium 
+* 42 [Trapping Rain Water](src/com/leetcode/algorithms/P042_TrappingWater.java) Hard 
+* 41 [First Missing Positive](src/com/leetcode/algorithms/P041_FirstMissing.java) Hard 
 * 40 [Combination Sum II](src/com/leetcode/algorithms/P039_CombinationSum.java) Medium 
 * 39 [Combination Sum](src/com/leetcode/algorithms/P039_CombinationSum.java) Medium 
 * 38 [Count and Say](src/com/leetcode/algorithms/P038_CountSay.java) Easy 

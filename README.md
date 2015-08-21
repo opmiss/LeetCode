@@ -182,16 +182,16 @@
 * 63 [Unique Paths II](/problems/unique-paths-ii/) Medium 
 * 62 [Unique Paths](/problems/unique-paths/) Medium 
 * 61 [Rotate List](/problems/rotate-list/) Medium 
-* 60 [Permutation Sequence](/problems/permutation-sequence/) Medium 
-* 59 [Spiral Matrix II](/problems/spiral-matrix-ii/) Medium 
-* 58 [Length of Last Word](/problems/length-of-last-word/) Easy
-* 57 [Insert Interval](/problems/insert-interval/) Hard 
-* 56 [Merge Intervals](/problems/merge-intervals/) Hard 
-* 55 [Jump Game](/problems/jump-game/) Medium 
-* 54 [Spiral Matrix](/problems/spiral-matrix/) Medium 
-* 53 [Maximum Subarray](/problems/maximum-subarray/) Medium 
-* 52 [N-Queens II](/problems/n-queens-ii/) Hard 
-* 51 [N-Queens](/problems/n-queens/) Hard 
+* 60 [Permutation Sequence](src/com/leetcode/algorithms/P060_PermutationSequence.java) Medium 
+* 59 [Spiral Matrix II](src/com/leetcode/algorithms/P059_NQueens.java) Medium 
+* 58 [Length of Last Word](src/com/leetcode/algorithms/P058_WordLength.java) Easy
+* 57 [Insert Interval](src/com/leetcode/algorithms/P056_Interval.java) Hard 
+* 56 [Merge Intervals](src/com/leetcode/algorithms/P056_Interval.java) Hard 
+* 55 [Jump Game](src/com/leetcode/algorithms/P055_JumpGame.java) Medium 
+* 54 [Spiral Matrix](src/com/leetcode/algorithms/P054_SpiralMatrix.java) Medium 
+* 53 [Maximum Subarray](src/com/leetcode/algorithms/P053_MaximumSubarray.java) Medium 
+* 52 [N-Queens II](src/com/leetcode/algorithms/P051_NQueens.java) Hard 
+* 51 [N-Queens](src/com/leetcode/algorithms/P051_NQueens.java) Hard 
 * 50 [Pow(x, n)](src/com/leetcode/algorithms/P050_Pow.java) Medium 
 * 49 [Anagrams](src/com/leetcode/algorithms/P049_Anagrams.java) Medium 
 * 48 [Rotate Image](src/com/leetcode/algorithms/P048_RotateImage.java) Medium 

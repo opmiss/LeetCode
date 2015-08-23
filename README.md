@@ -153,16 +153,16 @@
 * 92 [Reverse Linked List II](src/com/leetcode/algorithms/P092_ReverseLinkedList2.java) Medium 
 * 91 [Decode Ways](src/com/leetcode/algorithms/P091_DecodeWays.java) Medium 
 * 90 [Subsets II](src/com/leetcode/algorithms/P078_Subsets.java) Medium 
-* 89 [Gray Code](/problems/gray-code/) Medium 
-* 88 [Merge Sorted Array](/problems/merge-sorted-array/) Easy 
-* 87 [Scramble String](/problems/scramble-string/) Hard 
-* 86 [Partition List](/problems/partition-list/) Medium 
-* 85 [Maximal Rectangle](/problems/maximal-rectangle/) Hard 
-* 84 [Largest Rectangle in Histogram](/problems/largest-rectangle-in-histogram/) Hard 
-* 83 [Remove Duplicates from Sorted List](/problems/remove-duplicates-from-sorted-list/) Easy 
-* 82 [Remove Duplicates from Sorted List II](/problems/remove-duplicates-from-sorted-list-ii/) Medium 
-* 81 [Search in Rotated Sorted Array II](/problems/search-in-rotated-sorted-array-ii/) Medium 
-* 80 [Remove Duplicates from Sorted Array II](/problems/remove-duplicates-from-sorted-array-ii/) Medium 
+* 89 [Gray Code](src/com/leetcode/algorithms/P089_GrayCode.java) Medium 
+* 88 [Merge Sorted Array](src/com/leetcode/algorithms/P088_MergeSortedArray.java) Easy 
+* 87 [Scramble String](src/com/leetcode/algorithms/P087_ScrambleString.java) Hard 
+* 86 [Partition List](src/com/leetcode/algorithms/P086_PartitionList.java) Medium 
+* 85 [Maximal Rectangle](src/com/leetcode/algorithms/P085_MaximalRectangle.java) Hard 
+* 84 [Largest Rectangle in Histogram](src/com/leetcode/algorithms/P084_LargestRectangle.java) Hard 
+* 83 [Remove Duplicates from Sorted List](src/com/leetcode/algorithms/P083_SortedList.java) Easy 
+* 82 [Remove Duplicates from Sorted List II](src/com/leetcode/algorithms/P083_SortedList.java) Medium 
+* 81 [Search in Rotated Sorted Array II](src/com/leetcode/algorithms/P033_RotatedArray.java) Medium 
+* 80 [Remove Duplicates from Sorted Array II](src/com/leetcode/algorithms/P026_RemoveDuplicates.java) Medium 
 * 79 [Word Search](/problems/word-search/) Medium 
 * 78 [Subsets](src/com/leetcode/algorithms/P078_Subsets.java) Medium 
 * 77 [Combinations](/problems/combinations/) Medium 

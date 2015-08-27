@@ -163,18 +163,18 @@
 * 82 [Remove Duplicates from Sorted List II](src/com/leetcode/algorithms/P083_SortedList.java) Medium 
 * 81 [Search in Rotated Sorted Array II](src/com/leetcode/algorithms/P033_RotatedArray.java) Medium 
 * 80 [Remove Duplicates from Sorted Array II](src/com/leetcode/algorithms/P026_RemoveDuplicates.java) Medium 
-* 79 [Word Search](/problems/word-search/) Medium 
+* 79 [Word Search](src/com/leetcode/algorithms/P079_WordSearch.java) Medium 
 * 78 [Subsets](src/com/leetcode/algorithms/P078_Subsets.java) Medium 
-* 77 [Combinations](/problems/combinations/) Medium 
-* 76 [Minimum Window Substring](/problems/minimum-window-substring/) Hard 
-* 75 [Sort Colors](/problems/sort-colors/) Medium 
-* 74 [Search a 2D Matrix](/problems/search-a-2d-matrix/) Medium 
-* 73 [Set Matrix Zeroes](/problems/set-matrix-zeroes/) Medium 
-* 72 [Edit Distance](/problems/edit-distance/) Hard 
-* 71 [Simplify Path](/problems/simplify-path/) Medium 
-* 70 [Climbing Stairs](/problems/climbing-stairs/) Easy 
-* 69 [Sqrt(x)](/problems/sqrtx/) Medium 
-* 68 [Text Justification](/problems/text-justification/) Hard 
+* 77 [Combinations](src/com/leetcode/algorithms/P077_Combinations.java) Medium 
+* 76 [Minimum Window Substring](src/com/leetcode/algorithms/P076_MinWindowSubstring.java) Hard 
+* 75 [Sort Colors](src/com/leetcode/algorithms/P075_SortColors.java) Medium 
+* 74 [Search a 2D Matrix](src/com/leetcode/algorithms/P074_Search2DMatrix.java) Medium 
+* 73 [Set Matrix Zeroes](src/com/leetcode/algorithms/P073_SetMatrixZeros.java) Medium 
+* 72 [Edit Distance](src/com/leetcode/algorithms/P072_EditDistance.java) Hard 
+* 71 [Simplify Path](src/com/leetcode/algorithms/P071_SimplifyPath.java) Medium 
+* 70 [Climbing Stairs](src/com/leetcode/algorithms/P070_ClimbingStairs.java) Easy 
+* 69 [Sqrt(x)](src/com/leetcode/algorithms/P069_Sqrt.java) Medium 
+* 68 [Text Justification](src/com/leetcode/algorithms/P068_TextJustification.java) Hard 
 * 67 [Add Binary](/problems/add-binary/) Easy 
 * 66 [Plus One](/problems/plus-one/) Easy 
 * 65 [Valid Number](/problems/valid-number/) Hard 

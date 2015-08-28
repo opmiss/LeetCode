@@ -175,13 +175,13 @@
 * 70 [Climbing Stairs](src/com/leetcode/algorithms/P070_ClimbingStairs.java) Easy 
 * 69 [Sqrt(x)](src/com/leetcode/algorithms/P069_Sqrt.java) Medium 
 * 68 [Text Justification](src/com/leetcode/algorithms/P068_TextJustification.java) Hard 
-* 67 [Add Binary](/problems/add-binary/) Easy 
-* 66 [Plus One](/problems/plus-one/) Easy 
-* 65 [Valid Number](/problems/valid-number/) Hard 
-* 64 [Minimum Path Sum](/problems/minimum-path-sum/) Medium 
-* 63 [Unique Paths II](/problems/unique-paths-ii/) Medium 
-* 62 [Unique Paths](/problems/unique-paths/) Medium 
-* 61 [Rotate List](/problems/rotate-list/) Medium 
+* 67 [Add Binary](src/com/leetcode/algorithms/P067_AddBinary.java) Easy 
+* 66 [Plus One](src/com/leetcode/algorithms/P066_PlusOne.java) Easy 
+* 65 [Valid Number](src/com/leetcode/algorithms/P065_ValidNumber.java) Hard 
+* 64 [Minimum Path Sum](src/com/leetcode/algorithms/P064_MinPathSum.java) Medium 
+* 63 [Unique Paths II](src/com/leetcode/algorithms/P062_UniquePaths.java) Medium 
+* 62 [Unique Paths](src/com/leetcode/algorithms/P062_UniquePaths.java) Medium 
+* 61 [Rotate List](src/com/leetcode/algorithms/P061_RotateList.java) Medium 
 * 60 [Permutation Sequence](src/com/leetcode/algorithms/P060_PermutationSequence.java) Medium 
 * 59 [Spiral Matrix II](src/com/leetcode/algorithms/P059_NQueens.java) Medium 
 * 58 [Length of Last Word](src/com/leetcode/algorithms/P058_WordLength.java) Easy

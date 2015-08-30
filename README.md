@@ -223,12 +223,12 @@
 * 22 [Generate Parentheses](src/com/leetcode/algorithms/P022_GenerateParentheses.java) Medium 
 * 21 [Merge Two Sorted Lists](src/com/leetcode/algorithms/P021_MergeLists.java) Easy 
 * 20 [Valid Parentheses](src/com/leetcode/algorithms/P020_ValidParentheses.java) Easy 
-* 19 [Remove Nth Node From End of List](src/com/leetcode/algorithms/P019_RemoveNthNode.java) Easy 
+* 19 [Remove Nth Node From End of List](src/com/leetcode/algorithms/P019_RemoveNth.java) Easy 
 * 18 [4Sum](src/com/leetcode/algorithms/P018_4Sum.java) Medium 
 * 17 [Letter Combinations of a Phone Number](src/com/leetcode/algorithms/P017_PhoneNumber.java) Medium 
 * 16 [3Sum Closest](src/com/leetcode/algorithms/P016_3SumClosest.java) Medium 
 * 15 [3Sum](src/com/leetcode/algorithms/P015_3Sum.java) Medium 
-* 14 [Longest Common Prefix](src/com/leetcode/algorithms/P014_LongestPrefix.java) Easy 
+* 14 [Longest Common Prefix](src/com/leetcode/algorithms/P014_CommonPrefix.java) Easy 
 * 13 [Roman to Integer](src/com/leetcode/algorithms/P015_3Sum.java) Easy 
 * 12 [Integer to Roman](src/com/leetcode/algorithms/P012_Roman.java) Medium 
 * 11 [Container With Most Water](src/com/leetcode/algorithms/P011_Container.java) Medium 
@@ -238,7 +238,7 @@
 * 7 [Reverse Integer](src/com/leetcode/algorithms/P007_ReverseInteger.java) Easy 
 * 6 [ZigZag Conversion](src/com/leetcode/algorithms/P006_ZigZagConversion.java) Easy 
 * 5 [Longest Palindromic Substring](src/com/leetcode/algorithms/P005_LongestPalindrom.java) Medium 
-* 4 [Median of Two Sorted Arrays](src/com/leetcode/algorithms/P004_MedianTwoSortedArrays.java) Hard 
-* 3 [Longest Substring Without Repeating Characters](src/com/leetcode/algorithms/P003_LongestSubstringNoRepeating.java) Medium 
+* 4 [Median of Two Sorted Arrays](src/com/leetcode/algorithms/P004_MedianTwoSorted.java) Hard 
+* 3 [Longest Substring Without Repeating Characters](src/com/leetcode/algorithms/P003_LongestWithoutRepeat.java) Medium 
 * 2 [Add Two Numbers](src/com/leetcode/algorithms/P002_AddTwoNumbers.java) Medium 
 * 1 [Two Sum](src/com/leetcode/algorithms/P001_TwoSum.java) Medium

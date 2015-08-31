@@ -183,13 +183,13 @@
 * 62 [Unique Paths](src/com/leetcode/algorithms/P062_UniquePaths.java) Medium 
 * 61 [Rotate List](src/com/leetcode/algorithms/P061_RotateList.java) Medium 
 * 60 [Permutation Sequence](src/com/leetcode/algorithms/P060_PermutationSequence.java) Medium 
-* 59 [Spiral Matrix II](src/com/leetcode/algorithms/P059_NQueens.java) Medium 
+* 59 [Spiral Matrix II](src/com/leetcode/algorithms/P054_SpiralMatrix.java) Medium 
 * 58 [Length of Last Word](src/com/leetcode/algorithms/P058_WordLength.java) Easy
-* 57 [Insert Interval](src/com/leetcode/algorithms/P056_Interval.java) Hard 
-* 56 [Merge Intervals](src/com/leetcode/algorithms/P056_Interval.java) Hard 
-* 55 [Jump Game](src/com/leetcode/algorithms/P055_JumpGame.java) Medium 
+* 57 [Insert Interval](src/com/leetcode/algorithms/P056_Intervals.java) Hard 
+* 56 [Merge Intervals](src/com/leetcode/algorithms/P056_Intervals.java) Hard 
+* 55 [Jump Game](src/com/leetcode/algorithms/P045_JumpGame.java) Medium 
 * 54 [Spiral Matrix](src/com/leetcode/algorithms/P054_SpiralMatrix.java) Medium 
-* 53 [Maximum Subarray](src/com/leetcode/algorithms/P053_MaximumSubarray.java) Medium 
+* 53 [Maximum Subarray](src/com/leetcode/algorithms/P053_MaxSubarray.java) Medium 
 * 52 [N-Queens II](src/com/leetcode/algorithms/P051_NQueens.java) Hard 
 * 51 [N-Queens](src/com/leetcode/algorithms/P051_NQueens.java) Hard 
 * 50 [Pow(x, n)](src/com/leetcode/algorithms/P050_Pow.java) Medium 
@@ -197,7 +197,7 @@
 * 48 [Rotate Image](src/com/leetcode/algorithms/P048_RotateImage.java) Medium 
 * 47 [Permutations II](src/com/leetcode/algorithms/P046_Permutations.java) Hard 
 * 46 [Permutations](src/com/leetcode/algorithms/P046_Permutations.java) Medium 
-* 45 [Jump Game II](src/com/leetcode/algorithms/P045_JumpGame2.java) Hard 
+* 45 [Jump Game II](src/com/leetcode/algorithms/P045_JumpGame.java) Hard 
 * 44 [Wildcard Matching](src/com/leetcode/algorithms/P044_Wildcard.java) Hard 
 * 43 [Multiply Strings](src/com/leetcode/algorithms/P043_MultiplyStrings.java) Medium 
 * 42 [Trapping Rain Water](src/com/leetcode/algorithms/P042_TrappingWater.java) Hard 
@@ -205,14 +205,14 @@
 * 40 [Combination Sum II](src/com/leetcode/algorithms/P039_CombinationSum.java) Medium 
 * 39 [Combination Sum](src/com/leetcode/algorithms/P039_CombinationSum.java) Medium 
 * 38 [Count and Say](src/com/leetcode/algorithms/P038_CountSay.java) Easy 
-* 37 [Sudoku Solver](src/com/leetcode/algorithms/P037_SudokuSolver.java) Hard 
-* 36 [Valid Sudoku](src/com/leetcode/algorithms/P036_ValidSudoku.java) Easy
+* 37 [Sudoku Solver](src/com/leetcode/algorithms/P036_Sudoku.java) Hard 
+* 36 [Valid Sudoku](src/com/leetcode/algorithms/P036_Sudoku.java) Easy
 * 35 [Search Insert Position](src/com/leetcode/algorithms/P035_InsertPosition.java) Medium 
 * 34 [Search for a Range](src/com/leetcode/algorithms/P034_SearchRange.java) Medium 
-* 33 [Search in Rotated Sorted Array](src/com/leetcode/algorithms/P033_RotatedArray.java) Hard 
+* 33 [Search in Rotated Sorted Array](src/com/leetcode/algorithms/P033_SearchRotated.java) Hard 
 * 32 [Longest Valid Parentheses](src/com/leetcode/algorithms/P032_LongestParentheses.java) Hard 
 * 31 [Next Permutation](src/com/leetcode/algorithms/P031_NextPermutation.java) Medium
-* 30 [Substring with Concatenation of All Words](src/com/leetcode/algorithms/P030_Concatenate.java) Hard 
+* 30 [Substring with Concatenation of All Words](src/com/leetcode/algorithms/P030_ConcatenateAll.java) Hard 
 * 29 [Divide Two Integers](src/com/leetcode/algorithms/P029_DivideTwoInteger.java) Medium 
 * 28 [Implement strStr()](src/com/leetcode/algorithms/P028_Match.java) Easy 
 * 27 [Remove Element](src/com/leetcode/algorithms/P027_RemoveElement.java) Easy 

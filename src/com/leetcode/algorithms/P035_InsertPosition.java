@@ -1,5 +1,5 @@
 package com.leetcode.algorithms;
 
-public class P033_SearchRotated {
+public class P035_InsertPosition {
 
 }

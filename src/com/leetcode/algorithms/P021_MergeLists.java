@@ -1,5 +1,5 @@
 package com.leetcode.algorithms;
 
-public class P056_MergeIntervals {
+public class P021_MergeLists {
 
 }

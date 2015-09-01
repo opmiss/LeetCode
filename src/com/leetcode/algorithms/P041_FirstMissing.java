@@ -1,6 +1,6 @@
 package com.leetcode.algorithms;
 
-public class P041_FirstMissingPositive {
+public class P041_FirstMissing {
 	public int firstMissingPositive(int[] A) {
         int i=0; 
         while (i<A.length){

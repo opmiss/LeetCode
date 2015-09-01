@@ -1,6 +1,6 @@
 package com.leetcode.algorithms;
 
-public class P044_WildcardMatching {
+public class P044_Wildcard {
 	public boolean isMatch(String s, String p) {
         int sl = s.length(); 
 		int pl = p.length(); 
@@ -21,7 +21,7 @@ public class P044_WildcardMatching {
 		return (pi==pl); 
     }
 	public static void main(String[] args){
-		P044_WildcardMatching p = new P044_WildcardMatching(); 
+		P044_Wildcard p = new P044_Wildcard(); 
 		System.out.println(p.isMatch("aba", "a*a"));
 	}
 }

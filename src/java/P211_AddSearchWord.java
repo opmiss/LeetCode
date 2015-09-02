@@ -1,5 +1,5 @@
 package java;
-import com.leetcode.problems.tree.*;
+import problems.tree.*;
 
 public class P211_AddSearchWord {
     TrieNode root = new TrieNode(); 

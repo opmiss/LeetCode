@@ -1,5 +1,5 @@
 package java;
-import com.leetcode.problems.linkedlist.*;
+import problems.linkedlist.*;
 
 public class P024_SwapNodes {
 	 public ListNode swapPairs(ListNode head) {

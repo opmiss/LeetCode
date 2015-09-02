@@ -1,5 +1,5 @@
 package java;
-import com.leetcode.problems.linkedlist.ListNode;;
+import problems.linkedlist.ListNode;
 
 public class P160_IntersectionofTwoLinkedLists {
 	public ListNode getIntersectionNode(ListNode headA, ListNode headB) {

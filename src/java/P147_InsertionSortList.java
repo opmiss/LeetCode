@@ -1,5 +1,5 @@
 package java;
-import com.leetcode.problems.linkedlist.*;
+import problems.linkedlist.*;
 
 public class P147_InsertionSortList {
 	public static ListNode insertionSortList(ListNode head){

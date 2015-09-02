@@ -1,5 +1,5 @@
 package java;
-import com.leetcode.problems.linkedlist.*;
+import problems.linkedlist.*;
 
 public class P021_MergeLists {
 	 public ListNode mergeTwoLists(ListNode l1, ListNode l2) {

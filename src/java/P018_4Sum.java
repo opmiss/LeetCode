@@ -1,5 +1,19 @@
 package java;
 import java.util.*;
+import java.util.Map.Entry;
+
+/* *
+ * Given an array S of n integers, are there elements a, b, c, and d in S such that a + b + c + d = target? 
+ * Find all unique quadruplets in the array which gives the sum of target.
+ * Note:
+ * Elements in a quadruplet (a,b,c,d) must be in non-descending order. (ie, a <= b <= c <= d)
+ * The solution set must not contain duplicate quadruplets.
+ * For example, given array S = {1 0 -1 0 -2 2}, and target = 0.
+ * A solution set is:
+ * (-1,  0, 0, 1)
+ * (-2, -1, 1, 2)
+ * (-2,  0, 0, 2) 
+ * */
 
 public class P018_4Sum {
 	HashMap<Integer, ArrayList<Integer>> map; 
@@ -36,4 +50,33 @@ public class P018_4Sum {
         }
         return ret; 
     }
+    /* Given an array S of n integers, find consecutive integers in S such that the sum is equal to a given number, target. 
+	  * Return the sub-array. You may assume that each input would have exactly one solution. The algorithm should run in O(n).
+	  */
+	public List<List<Integer>> arraySum(int[] num, int target){
+		List<List<Integer>> ret = new ArrayList<List<Integer>>(); 
+		int[] leftsum = new int[num.length];
+		leftsum[0] = num[0]; 
+		for (int i=1; i<num.length; i++){
+			leftsum[i] = num[i]+leftsum[i-1];
+			if (leftsum[i]==target) {
+				ArrayList<Integer> sol = new ArrayList<Integer>(); 
+				sol.add(0); sol.add(i); 
+				ret.add(sol); 
+			}
+		}
+		HashMap<Integer, Integer> map = new HashMap<Integer, Integer>(); 
+		for (int i=0; i<num.length; i++){
+			map.put(leftsum[i], i); 
+		}
+		for (Entry<Integer, Integer> e:map.entrySet()){
+			Integer t = map.get(e.getKey()-target); 
+			if (t!=null && t<e.getValue()){
+				ArrayList<Integer> sol = new ArrayList<Integer>(); 
+				sol.add(t+1); sol.add(e.getValue()); 
+				ret.add(sol); 
+			}
+		}
+		return ret; 
+	}
 }

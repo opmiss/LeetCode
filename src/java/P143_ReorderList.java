@@ -1,5 +1,5 @@
 package java;
-import com.leetcode.problems.linkedlist.ListNode;
+import problems.linkedlist.ListNode;
 
 public class P143_ReorderList {
 	public static void reorderList(ListNode head) {

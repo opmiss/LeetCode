@@ -1,6 +1,7 @@
 package java;
 import java.util.*;
-import com.leetcode.problems.linkedlist.*;
+
+import problems.linkedlist.*;
 
 public class P023_MergeKLists {
 	public ListNode mergeKLists(ArrayList<ListNode> lists) {

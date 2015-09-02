@@ -38,6 +38,23 @@ public class P136_SingleNumber {
 		return res; 
     }
 	
+	/*
+	 * Given an array of integers, every element appears N times except for one. Find that single one.
+	 */
+	
+	public int singleNumberN(int[] A, int N){
+		int[] m = new int[N]; int _m; 
+		m[0] = ~A[0]; m[1] = A[0]; 
+		for (int i=1; i<A.length; i++){
+			_m = m[N-1]; 
+			for (int k=N-1; k>0; k--){
+				m[k] = (m[k-1]&A[i])|(m[k]&(~A[i]));
+			}
+			m[0] = (_m&A[i])|(m[0]&(~A[i])); 
+		}
+		return m[1]; 
+	}
+	
 	public static void main(String[] args){
 		P136_SingleNumber p = new P136_SingleNumber(); 
 		int[] singles = p.singleNumberIII(new int[]{1, 2, 3, 1, 2, 3, 8, 6}); 

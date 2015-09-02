@@ -1,6 +1,7 @@
 package java;
-import com.leetcode.problems.tree.*; 
 import java.util.*; 
+
+import problems.tree.*;
 
 public class P145_BinaryTreePostorderTraversal {
 	public static ArrayList<Integer> postorderTraversal(TreeNode root){

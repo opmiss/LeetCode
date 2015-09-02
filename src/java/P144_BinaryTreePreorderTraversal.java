@@ -3,7 +3,7 @@ package java;
 import java.util.ArrayList;
 import java.util.Stack;
 
-import com.leetcode.problems.tree.TreeNode;
+import problems.tree.TreeNode;
 
 public class P144_BinaryTreePreorderTraversal {
 	 public static ArrayList<Integer> preorderTraversal(TreeNode root) {

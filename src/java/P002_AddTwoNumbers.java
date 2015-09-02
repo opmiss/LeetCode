@@ -1,5 +1,5 @@
 package java;
-import com.leetcode.problems.linkedlist.*;
+import problems.linkedlist.*;
 
 public class P002_AddTwoNumbers {
 	 public ListNode addTwoNumbers(ListNode l1, ListNode l2) {

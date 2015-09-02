@@ -1,5 +1,5 @@
 package java;
-import com.leetcode.problems.linkedlist.*;
+import problems.linkedlist.*;
 
 public class P019_RemoveNth {
 	 public ListNode removeNthFromEnd(ListNode head, int n) {

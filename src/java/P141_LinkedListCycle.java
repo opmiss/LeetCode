@@ -1,6 +1,6 @@
 package java;
 
-import com.leetcode.problems.linkedlist.ListNode;
+import problems.linkedlist.ListNode;
 
 public class P141_LinkedListCycle {
 	public ListNode detectCycle(ListNode head) {

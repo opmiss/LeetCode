@@ -1,6 +1,7 @@
 package java;
 import java.util.*;
-import com.leetcode.problems.tree.*;
+
+import problems.tree.*;
 
 public class P173_BSTIterator {
 	Stack<TreeNode> stack; 

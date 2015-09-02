@@ -1,6 +1,7 @@
 package java;
-import com.leetcode.problems.tree.*;
 import java.util.*;
+
+import problems.tree.*;
 
 public class P212_WordSearch2 {
 	Set<String> sols; 

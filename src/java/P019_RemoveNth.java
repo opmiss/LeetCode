@@ -1,7 +1,15 @@
 package java;
-import problems.linkedlist.*;
+
 
 public class P019_RemoveNth {
+	public class ListNode {
+		int val;
+		ListNode next;
+		ListNode(int x) {
+			val = x;
+			next = null;
+			}
+		}
 	 public ListNode removeNthFromEnd(ListNode head, int n) {
 	        ListNode dummyhead = new ListNode(0); 
 	        dummyhead.next = head; 

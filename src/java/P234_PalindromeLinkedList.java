@@ -1,7 +1,14 @@
 package java;
-import problems.linkedlist.*;
 
 public class P234_PalindromeLinkedList {
+	public class ListNode {
+		int val;
+		ListNode next;
+		ListNode(int x) {
+			val = x;
+			next = null;
+			}
+		}
 	public boolean isPalindrome(ListNode head) {
         if (head==null) return true; 
         ListNode fast = head; 

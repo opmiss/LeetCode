@@ -1,7 +1,15 @@
 package java;
-import problems.linkedlist.*;
+import java.P025_ReverseNodes.ListNode;
 
 public class P147_InsertionSortList {
+	public static class ListNode {
+		int val;
+		ListNode next;
+		ListNode(int x) {
+			val = x;
+			next = null;
+			}
+		}
 	public static ListNode insertionSortList(ListNode head){
 	    if (head==null) return head; 
 		ListNode dummyhead = new ListNode(0); dummyhead.next = head; 

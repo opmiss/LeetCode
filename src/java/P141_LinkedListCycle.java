@@ -1,8 +1,15 @@
 package java;
 
-import problems.linkedlist.ListNode;
 
 public class P141_LinkedListCycle {
+	public class ListNode {
+		int val;
+		ListNode next;
+		ListNode(int x) {
+			val = x;
+			next = null;
+			}
+		}
 	public ListNode detectCycle(ListNode head) {
         if (head==null) return null;
         ListNode slow=head, fast = head; 

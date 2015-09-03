@@ -1,7 +1,17 @@
 package java;
-import problems.linkedlist.*;
+import java.P025_ReverseNodes.ListNode;
+
+
 
 public class P002_AddTwoNumbers {
+	public class ListNode {
+		int val;
+		ListNode next;
+		ListNode(int x) {
+			val = x;
+			next = null;
+			}
+		}
 	 public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 	        int carry = 0; 
 	        ListNode dummy = new ListNode(0); 

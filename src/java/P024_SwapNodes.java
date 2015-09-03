@@ -1,7 +1,14 @@
 package java;
-import problems.linkedlist.*;
 
 public class P024_SwapNodes {
+	public class ListNode {
+		int val;
+		ListNode next;
+		ListNode(int x) {
+			val = x;
+			next = null;
+			}
+		}
 	 public ListNode swapPairs(ListNode head) {
 	        if (head == null) return head;
 	        ListNode dummyhead = new ListNode(0);

@@ -1,9 +1,15 @@
 package java;
 import java.util.*;
 
-import problems.linkedlist.*;
-
 public class P023_MergeKLists {
+	public class ListNode {
+		int val;
+		ListNode next;
+		ListNode(int x) {
+			val = x;
+			next = null;
+			}
+		}
 	public ListNode mergeKLists(ArrayList<ListNode> lists) {
         if (lists==null) return null; 
         if (lists.size()==1) return lists.get(0); 

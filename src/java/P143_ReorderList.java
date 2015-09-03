@@ -1,7 +1,14 @@
 package java;
-import problems.linkedlist.ListNode;
 
 public class P143_ReorderList {
+	public static class ListNode {
+		int val;
+		ListNode next;
+		ListNode(int x) {
+			val = x;
+			next = null;
+			}
+		}
 	public static void reorderList(ListNode head) {
 		 if (head == null || head.next==null) return; 
 		 ListNode middle = half(head); 

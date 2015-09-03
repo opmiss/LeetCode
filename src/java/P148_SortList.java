@@ -1,7 +1,14 @@
 package java;
-import problems.linkedlist.*;
 
 public class P148_SortList {
+	public class ListNode {
+		int val;
+		ListNode next;
+		ListNode(int x) {
+			val = x;
+			next = null;
+			}
+		}
 	public ListNode sortList(ListNode head) {
         if (head == null || head.next == null) return head;  
         ListNode middle = getMiddle(head); 

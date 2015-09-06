@@ -1,4 +1,5 @@
 package com.leetcode.problems.string;
+import java.util.*;
 
 public class KMPSearch {
 	
@@ -51,8 +52,11 @@ public class KMPSearch {
 	public static void main(String[] args){
 		KMPSearch kmp = new KMPSearch(); 
 		kmp.test();
-		//int[] T=kmp.computeTable("abababababde");
-		//System.out.println(); 
-		//for (int i=0; i<T.length; i++) System.out.print(T[i]); 
+		int[] T=kmp.computeTable("ababab");
+		System.out.println(); 
+		for (int i=0; i<T.length; i++) System.out.print(T[i]); 
+		ArrayList<Integer> list = new ArrayList<Integer>(); 
+		list.set(5, 6); 
+		
 	}
 }

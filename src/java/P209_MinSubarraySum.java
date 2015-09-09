@@ -1,6 +1,6 @@
 package java;
 
-public class P209_MinimumSizeSubarraySum {
+public class P209_MinSubarraySum {
 	public int minSubArrayLen(int s, int[] nums) {
         if (nums.length<1) return 0; 
         int i = 0; 

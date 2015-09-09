@@ -1,7 +1,6 @@
-package problems.string;
+package java;
 
-public class Substring {
-	
+public class P076_MinWindowSubstring {
 	/* Given a string S and a string T, find the minimum window in S which will contain all the characters in T in complexity O(n).
 	 * For example,
 	 * S = "ADOBECODEBANC"
@@ -57,15 +56,5 @@ public class Substring {
 		}
 		return (maxL==0)?"":S.substring(start, start+maxL); 
 	}
-	
-	public String minSequence(String S){
-		return null; 
-	}
-	
-	public static void main(String[] args){
-		String S = "abcbbbbcccbdddadacb"; 
-		Substring ss = new Substring(); 
-		System.out.println(ss.maxWindow(S)); 
-	}
-	
+
 }

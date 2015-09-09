@@ -1,17 +1,16 @@
-package problems.string;
+package java;
 
-/*
- * Given s1, s2, s3, find whether s3 is formed by the interleaving of s1 and s2.
- * For example,
- * Given:
- * s1 = "aabcc",
- * s2 = "dbbca",
- * 
- * When s3 = "aadbbcbcac", return true.
- * When s3 = "aadbbbaccc", return false.
- */
-
-public class InterleavingString {
+public class P097_InterleavingString {
+	/*
+	 * Given s1, s2, s3, find whether s3 is formed by the interleaving of s1 and s2.
+	 * For example,
+	 * Given:
+	 * s1 = "aabcc",
+	 * s2 = "dbbca",
+	 * 
+	 * When s3 = "aadbbcbcac", return true.
+	 * When s3 = "aadbbbaccc", return false.
+	 */
 	public boolean isInterleave(String s1, String s2, String s3) {
 		int l1 = s1.length(), l2 = s2.length();
 		if (l1 + l2 != s3.length())
@@ -41,4 +40,5 @@ public class InterleavingString {
 		}
 		return visit[l2];
 	}
+
 }

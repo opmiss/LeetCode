@@ -1,6 +1,22 @@
 package java;
 import java.util.*;
 
+/*
+ * Given two words (start and end), and a dictionary, 
+ * find all shortest transformation sequence(s) from start to end, such that:
+ * Only one letter can be changed at a time
+ * Each intermediate word must exist in the dictionary
+ * For example, given:
+ * start = "hit"
+ * end = "cog"
+ * dict = ["hot","dot","dog","lot","log"]
+ * Return:
+ * [
+ * 	["hit","hot","dot","dog","cog"],
+ * 	["hit","hot","lot","log","cog"]
+ * ]
+ * */
+
 public class P126_WordLadder {
 	int wleng; 
 	public Map<String, List<String>> buildIndex(Set<String> dict){
@@ -99,7 +115,6 @@ public class P126_WordLadder {
 					}
 					sb.setCharAt(i, w.charAt(i)); 
 				}
-				//System.out.println("visitnext: "+visitnext.keySet()); 
 			}
 			HashMap<String, Node> temp = visiting; 
 			visiting = visitnext;  

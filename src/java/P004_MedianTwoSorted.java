@@ -3,6 +3,10 @@ package java;
 import java.util.Arrays;
 
 public class P004_MedianTwoSorted {
+	/* There are two sorted arrays A and B of size m and n respectively. 
+	 * Find the median of the two sorted arrays. 
+	 * The overall run time complexity should be O(log (m+n)).
+	 */
 	public double findMedianSortedArrays(int A[], int B[]) {
 		if (A.length<B.length){
 			return findMedian(A, 0, A.length, B, 0, B.length);

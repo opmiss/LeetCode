@@ -1,6 +1,6 @@
 package java;
 
-public class P153_FindMinimuminRotatedSortedArray {
+public class P153_MinimuminRotated {
 	public int findMin(int[] num) {
         return findMin(num, 0, num.length-1); 
     }

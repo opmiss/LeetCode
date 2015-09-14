@@ -1,9 +1,14 @@
 package java;
 import java.util.*; 
 
-import problems.tree.*;
-
 public class P145_BinaryTreePostorderTraversal {
+	class TreeNode{
+		int val; 
+		TreeNode left, right; 
+		TreeNode(int v){
+			val=v; 
+		}
+	}
 	public static ArrayList<Integer> postorderTraversal(TreeNode root){
 		ArrayList<Integer> list = new ArrayList<Integer>(); 
 		if (root == null) return list; 

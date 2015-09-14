@@ -1,30 +1,29 @@
-package problems.tree;
-
-/*
- * Given a binary tree
- * Populate each next pointer to point to its next right node. 
- * If there is no next right node, the next pointer should be set to NULL.
- * Initially, all next pointers are set to NULL.
- * Note:
- * You may only use constant extra space.
- * The given tree could be any binary tree.
- * For example,
- * Given the following binary tree,
-         1
-       /  \
-      2    3
-     / \    \
-    4   5    7
-   After calling your function, the tree should look like:
-         1 -> NULL
-       /  \
-      2 -> 3 -> NULL
-     / \    \
-    4-> 5 -> 7 -> NULL
- */
+package java;
 
 
-public class PopulatingNextRight {
+public class P116_PopulatingNextRight {
+	/*
+	 * Given a binary tree
+	 * Populate each next pointer to point to its next right node. 
+	 * If there is no next right node, the next pointer should be set to NULL.
+	 * Initially, all next pointers are set to NULL.
+	 * Note:
+	 * You may only use constant extra space.
+	 * The given tree could be any binary tree.
+	 * For example,
+	 * Given the following binary tree,
+	         1
+	       /  \
+	      2    3
+	     / \    \
+	    4   5    7
+	   After calling your function, the tree should look like:
+	         1 -> NULL
+	       /  \
+	      2 -> 3 -> NULL
+	     / \    \
+	    4-> 5 -> 7 -> NULL
+	 */
 	
 	public class TreeLinkNode {
 		int val;

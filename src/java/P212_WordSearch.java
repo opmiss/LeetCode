@@ -1,8 +1,6 @@
 package java;
 import java.util.*;
 
-import problems.tree.*;
-
 public class P212_WordSearch {
 	Set<String> sols; 
     int nrows; 

@@ -1,4 +1,4 @@
-package problems.tree;
+package java;
 import java.util.*;
 
 public class TrieNode {
@@ -33,7 +33,6 @@ public class TrieNode {
     	int id = (int)w.charAt(0) -'a'; 
     	if (child[id]==null) return false;  
     	return child[id].searchReg(w.substring(1));
-    	
     }
     
     public boolean startsWith(String w){

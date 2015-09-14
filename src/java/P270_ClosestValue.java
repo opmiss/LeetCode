@@ -1,9 +1,14 @@
 package java;
 import java.util.*;
 
-import problems.tree.*;
-
 public class P270_ClosestValue {
+	class TreeNode{
+		int val; 
+		TreeNode left, right; 
+		TreeNode(int v){
+			val=v; 
+		}
+	}
 	public int closestValue(TreeNode root, double target) {
 		double closest = Integer.MAX_VALUE;
 	    int value = 0;

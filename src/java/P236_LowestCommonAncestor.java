@@ -1,7 +1,13 @@
 package java;
-import problems.tree.*;
 
 public class P236_LowestCommonAncestor {
+	class TreeNode{
+		int val; 
+		TreeNode left, right; 
+		TreeNode(int v){
+			val=v; 
+		}
+	}
 	class DataNode {
         boolean hasP; 
         boolean hasQ; 

@@ -1,9 +1,15 @@
 package java;
 import java.util.*;
 
-import problems.tree.*;
 
 public class P173_BSTIterator {
+	class TreeNode{
+		int val; 
+		TreeNode left, right; 
+		TreeNode(int v){
+			val=v; 
+		}
+	}
 	Stack<TreeNode> stack; 
 
     public P173_BSTIterator(TreeNode root) {

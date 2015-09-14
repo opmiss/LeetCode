@@ -1,5 +1,4 @@
 package java;
-import problems.tree.*;
 
 public class P211_AddSearchWord {
     TrieNode root = new TrieNode(); 

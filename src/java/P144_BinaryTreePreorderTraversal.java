@@ -1,11 +1,15 @@
 package java;
 
-import java.util.ArrayList;
-import java.util.Stack;
-
-import problems.tree.TreeNode;
+import java.util.*;
 
 public class P144_BinaryTreePreorderTraversal {
+	class TreeNode{
+		int val; 
+		TreeNode left, right; 
+		TreeNode(int v){
+			val=v; 
+		}
+	}
 	 public static ArrayList<Integer> preorderTraversal(TreeNode root) {
 			ArrayList<Integer> list = new ArrayList<Integer>(); 
 			if (root == null) return list; 

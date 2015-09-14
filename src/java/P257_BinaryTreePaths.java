@@ -1,9 +1,13 @@
 package java;
 import java.util.*;
-
-import problems.tree.*;
-
 public class P257_BinaryTreePaths {
+	class TreeNode{
+		int val; 
+		TreeNode left, right; 
+		TreeNode(int v){
+			val=v; 
+		}
+	}
 	public List<String> binaryTreePaths(TreeNode root) {
 		List<String> res = new ArrayList<String>();
 		if (root == null)

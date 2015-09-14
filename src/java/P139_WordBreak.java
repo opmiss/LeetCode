@@ -1,11 +1,6 @@
 package java;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-
-import problems.string.WordBreak;
+import java.util.*;
 
 public class P139_WordBreak {
 	/*
@@ -86,7 +81,7 @@ public class P139_WordBreak {
 		  dict.add("hello"); 
 		  dict.add("world"); 
 		  String s = "helloworld"; 
-		  WordBreak wb=new WordBreak(); 
+		  P139_WordBreak wb=new P139_WordBreak(); 
 		  System.out.println(wb.canBreak(s, dict)); 
 		  
 		  dict.add("cat"); 

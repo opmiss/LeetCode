@@ -1,5 +1,14 @@
 # LeetCode
 ##Algorithms
+* 268 [Missing Number]() Medium
+* 267 [Palindrome Permutation II]() Medium
+* 266 [Palindrome Permutation]() Easy
+* 265 [Paint House II]() Hard
+* 264 [Ugly Number II]() Medium
+* 263 [Ugly Number]() Easy
+* 261 [Graph Valid Tree]() Medium
+* 260 [Single Number III]() Medium
+* 259 [3Sum Smaller]() Medium
 * 258 [Add Digits]() Easy
 * 257 [Binary Tree Paths]() Easy
 * 256 [Paint House]() Medium

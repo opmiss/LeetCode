@@ -1,5 +1,13 @@
 # LeetCode
 ##Algorithms
+
+* 275 [H-Index II]() Medium
+* 274 [H-Index]() Medium
+* 273 [Integer to English Words]() Medium
+* 272 [Closest Binary Search Tree II]() Medium
+* 271 [Encode and Decode Strings]() Medium
+* 270 [Closest Binary Search Tree Value]() Medium
+* 269 [Alien Dictionary]() Medium
 * 268 [Missing Number]() Medium
 * 267 [Palindrome Permutation II]() Medium
 * 266 [Palindrome Permutation]() Easy

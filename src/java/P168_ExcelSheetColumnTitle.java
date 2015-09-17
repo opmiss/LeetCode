@@ -1,7 +1,0 @@
-package java;
-
-public class P168_ExcelSheetColumnTitle {
-	public String convertToTitle(int n) {
-	   return n == 0 ? "" : convertToTitle(--n / 26) + (char)('A' + (n % 26));
-	}
-}

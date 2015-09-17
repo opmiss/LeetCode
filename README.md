@@ -1,5 +1,6 @@
 # LeetCode
 ##Algorithms
+* 282 [Expression Add Operators]() Hard
 * 281 [Zigzag Iterator]() Medium
 * 280 [Wiggle Sort]() Medium
 * 279 [Perfect Squares]() Medium

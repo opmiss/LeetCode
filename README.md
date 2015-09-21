@@ -1,5 +1,7 @@
 # LeetCode
 ##Algorithms
+* 284 [Peeking Iterator]() Medium
+* 283 [Move Zeros]() Easy
 * 282 [Expression Add Operators]() Hard
 * 281 [Zigzag Iterator]() Medium
 * 280 [Wiggle Sort]() Medium

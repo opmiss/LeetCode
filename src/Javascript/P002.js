@@ -30,5 +30,8 @@ var addTwoNumbers = function(l1, l2) {
         cur = cur.next;
         l2 = l2.next;
     }
+    if (Math.floor(carry)>0){
+        cur.next = new ListNode(1);
+    }
     return dummyhead.next;
 };
